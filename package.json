@@ -26,5 +26,15 @@
   "dependencies": {
     "logfmt": "~1.1.2",
     "express": "~3.5.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.4",
+    "grunt-contrib-coffee": "~0.10.1",
+    "grunt-contrib-compass": "~0.7.2",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-html-build": "~0.3.2",
+    "grunt-delete-sync": "0.0.2",
+    "grunt-sync": "0.0.6",
+    "js-beautify": "~1.4.2"
   }
 }

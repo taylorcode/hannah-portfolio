@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="hannah">
+
+<head>
+    <base href="/">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link type="text/css" rel="stylesheet" href="assets/stylesheets/styles.css" />
+    <title>Hannah Landscape Architecture Portfolio Website</title>
+</head>
+
+<body ontouchstart ng-controller="Hannah as hannah">
+
+    <header></header>
+
+    <div ng-view></div>
+
+    <footer></footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-route.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
+
+
+
+    <script>
+        (function() {
+
+            if ('dev' === 'dev') return window.log = console.log.bind(console);
+            window.log = function() {};
+
+        }).call(this);
+    </script>
+
+
+    <script type="text/javascript" src="assets/scripts/routes.js"></script>
+    <script type="text/javascript" src="assets/scripts/controllers/home.js"></script>
+    <script type="text/javascript" src="assets/scripts/controllers/main.js"></script>
+    <script type="text/javascript" src="assets/scripts/controllers/project.js"></script>
+    <script type="text/javascript" src="assets/scripts/services.js"></script>
+
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+</body>
+
+</html>
