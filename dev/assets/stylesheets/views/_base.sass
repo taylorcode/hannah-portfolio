@@ -1,0 +1,108 @@
+$top-space: 50px
+
+html
+	border-top: 5px solid $accent-color
+
+[ui-view]
+	&.ng-enter, &.ng-leave
+		position: absolute
+		left: 0
+		top: 0
+	&.ng-enter
+		@include transition-duration(.3s)
+		opacity: 0
+	&.ng-enter-active
+		opacity: 1
+	&.ng-leave
+		@include transition-duration(.2s)
+		opacity: 1
+	&.ng-leave-active
+		opacity: 0
+
+
+[ui-view]
+	h2
+		@include transition-duration(.4s)
+	&.ng-enter
+		h2
+			@include transform(translateX(100px))
+	&.ng-enter-active
+		h2
+			@include transform(translateX(0px))
+	&.ng-leave-active
+		h2
+			@include transform(translateX(-10px))
+
+body
+	background: $bg-color
+	margin: 0 auto
+	overflow: visible
+	@include respond-to(wide-screens)
+		width: 1260px
+	@include respond-to(medium-screens)
+		width: 1080px
+	@include respond-to(normal-screens)
+		width: 960px
+	@include respond-to(handhelds)
+		width: auto
+
+header
+	z-index: 1
+	position: relative
+	padding-top: $top-space
+	@include respond-to(handhelds)
+		padding-top: 0px
+		text-align: center
+		margin-bottom: 20px
+	nav
+		float: right
+		@include respond-to(handhelds)
+			float: none
+		a
+			text-decoration: none !important
+			color: black
+			&.selected, &:hover
+				color: $accent-color
+	li
+		display: inline-block
+		padding: 15px
+
+// base IDs
+
+#main
+	margin-top: -$top-space
+	@include respond-to(handhelds)
+		margin: 0px 10px
+	> [ui-view]
+		width: 100%
+		background: $bg-color
+		overflow: visible
+		position: absolute
+	position: relative
+	overflow: visible
+
+#back
+	float: left
+	width: 30px
+	height: 50px
+	margin-left: -30px
+	@include respond-to(handhelds)
+		margin-left: 0px
+		margin-right: -30px
+h2
+	@include respond-to(handhelds)
+		margin-left: 30px
+
+// reuseable app-scope classes
+.noscroll
+	height: 100%
+
+.hz-highlight-paragraph
+	p
+		background: $light-gray
+		margin-top: 20px
+
+// fixes
+// fix for our overrides effect on panzoom
+.zoom
+	overflow: visible

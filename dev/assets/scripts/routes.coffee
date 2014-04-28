@@ -1,26 +1,33 @@
-window.hannah = angular.module('hannah', ['ngRoute'])
+window.hannah = angular.module('hannah', ['ngRoute', 'ui.router', 'ngAnimate'])
 
-.config ($routeProvider, $locationProvider) ->
+.config ($locationProvider, $stateProvider, $urlRouterProvider) ->
 
-    $routeProvider
-    .when '/',
-      templateUrl: 'assets/partials/cover.html'
-    .when '/home',
+    $stateProvider
+    .state 'home',
+      url: '/'
       templateUrl: 'assets/partials/home.html'
-      controller: 'Home'
-      controllerAs: 'home'
-    .when '/project/:id',
+      controller: 'Home as home'
+    .state 'base',
+      templateUrl: 'assets/partials/base.html'
+      onEnter: ($rootScope) ->
+        $rootScope.coverSlideUp = true
+    .state 'project',
+      url: '/project/:id'
       templateUrl: 'assets/partials/project.html'
-      controller: 'Project'
-      controllerAs: 'project'
-    .when '/about',
+      controller: 'Project as project'
+      parent: 'base'
+    .state 'about',
+      url: '/about'
       templateUrl: 'assets/partials/about.html'
-    .when '/resume',
+      parent: 'base'
+    .state 'resume',
+      url: '/resume'
       templateUrl: 'assets/partials/Resume.html'
-    .when '/Contact',
+      parent: 'base'
+    .state 'contact',
+      url: '/contact'
       templateUrl: 'assets/partials/contact.html'
-    .otherwise
-      redirectTo: '/'
+      parent: 'base'
 
     $locationProvider.html5Mode true
 

@@ -1,1 +1,27 @@
-PROJECT PAGE
+<h2>{{selectedCategory.name}}</h2>
+
+<div class="hz-gallery">
+
+	<figure class="hz-gallery-panzoom" panzoom hz-key="selectedImage">
+
+		<div class="zoom">
+			<img ng-src="assets/media/images/projects/{{selectedProject.imagesDir}}/fullres/{{selectedImage.src}}">
+		</div>
+
+		<nav>
+			<button class="button zoom-in">+</button>
+			<button class="button zoom-out">-</button>
+			<input type="range" class="zoom-range">
+			<button class="reset">Reset</button>
+		</nav>
+
+	</figure>
+
+	<div class="hz-gallery-controls">
+		<span class="hz-category-name">{{selectedCategory.name}}</span>
+		<span class="hz-project-title">{{selectedProject.title}}</span>
+		<div class="hz-gallery-thumbs" hz-gallery-thumbs="selectedCategory.projects" selected-project="selectedProject" selected-image="selectedImage"></div>
+	</div>
+</div>
+
+<div>{{selectedImage.description}}</div>

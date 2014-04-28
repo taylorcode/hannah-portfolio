@@ -1,0 +1,61 @@
+/* line 4, ../../../dev/assets/stylesheets/project.sass */
+.hz-gallery figure {
+  height: 500px;
+  text-align: center;
+}
+
+/* line 9, ../../../dev/assets/stylesheets/project.sass */
+.hz-gallery-panzoom nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* line 15, ../../../dev/assets/stylesheets/project.sass */
+.hz-gallery-thumbs li {
+  display: inline-block;
+  font-size: 0;
+  height: 100px;
+  text-align: center;
+}
+/* line 20, ../../../dev/assets/stylesheets/project.sass */
+.hz-gallery-thumbs img {
+  height: 100%;
+}
+/* line 22, ../../../dev/assets/stylesheets/project.sass */
+.hz-gallery-thumbs button {
+  position: absolute;
+  line-height: 100px;
+  width: 40px;
+}
+/* line 25, ../../../dev/assets/stylesheets/project.sass */
+.hz-gallery-thumbs button:last-child {
+  right: 0;
+}
+/* line 28, ../../../dev/assets/stylesheets/project.sass */
+.hz-gallery-thumbs nav {
+  position: relative;
+  overflow: visible;
+}
+
+/* line 33, ../../../dev/assets/stylesheets/project.sass */
+.hz-gallery-controls span {
+  display: inline-block;
+  line-height: 100px;
+  padding: 0 15px;
+  float: left;
+}
+
+/* line 39, ../../../dev/assets/stylesheets/project.sass */
+.hz-gallery-projects {
+  margin: 0 40px;
+}
+/* line 41, ../../../dev/assets/stylesheets/project.sass */
+.hz-gallery-projects ul {
+  white-space: nowrap;
+  display: inline-block;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}

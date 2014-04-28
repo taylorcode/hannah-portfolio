@@ -1,1 +1,14 @@
-HOME PARTIAL
+<div id="intro-content">
+    <h1>Hannah Zimmerman</h1>
+    <p>At labo. Iquiate moloreptat. Occaborest, aliciiscid mo temolest am cus modis aut ut fugiam as exendit enihili quatem a quibusd andicit aut offictet modigen</p>
+</div>
+<ul class="hz-images-display">
+	<li ng-repeat="category in categories">
+		<a ng-href="/project/{{category.name | camelCaseToDash}}">
+			<figure>
+				<img ng-src="assets/media/images/projects/{{category.projects[0].imagesDir}}/display/{{category.projects[0].images[0].src}}">
+				<figcaption>{{category.description}}</figcaption>
+			</figure>
+		</a>
+	</li>
+</ul>

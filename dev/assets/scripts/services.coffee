@@ -1,5 +1,8 @@
-# angular.module('hannah')
+angular.module('hannah')
 
+.filter 'camelCaseToDash', () ->
+	(value) ->
+		value.replace(' ', '-').toLowerCase()
 # .factory 'jgApi', ($resource) ->
 #   resumes: $resource 'api/account/resumes/', id: '@_id'
 #   job: $resource 'api/jobs/:_id', _id: '@_id'
@@ -10,3 +13,4 @@
 #   company: $resource 'api/company/:id', search: '@_id'
 #   account: $resource 'api/account'
 #   login: $resource 'api/login'
+

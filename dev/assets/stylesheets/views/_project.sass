@@ -1,0 +1,61 @@
+.hz-gallery
+    figure
+        height: 500px
+        text-align: center
+
+.hz-gallery-panzoom
+    nav
+        position: absolute
+        top: 0
+        right: 0
+
+.hz-gallery-thumbs
+    img
+        height: 100%
+        padding: 5px
+        padding-left: 0
+    ul
+        vertical-align: bottom
+    li
+        cursor: pointer
+        display: inline-block
+        padding-bottom: 10px
+        font-size: 0
+        height: 80px
+        text-align: center
+        &:last-child img
+            padding-right: 0
+        vertical-align: bottom
+    button
+        position: absolute
+        line-height: 90px
+        &:last-child
+            right: 0
+        width: 40px
+    nav
+        position: relative
+        overflow: visible
+
+.hz-gallery-controls
+    background: black
+    span
+        color: white
+        display: inline-block
+        line-height: 90px
+        padding: 0 15px
+        float: left
+        @include respond-to(handhelds)
+            float: none
+    .hz-project-title
+        padding-right: 40px
+        border-left: 1px solid $bg-color
+
+.hz-gallery-projects
+    margin: 0 40px
+    ul
+        white-space: nowrap
+        display: inline-block
+        @include transition-duration(.3s)
+    img
+        &.selected
+            opacity: .7

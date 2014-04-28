@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'GudeaRegular';
+    src: url('gudea-regular.eot');
+    src: url('gudea-regular.eot') format('embedded-opentype'),
+         url('gudea-regular.woff') format('woff'),
+         url('gudea-regular.ttf') format('truetype'),
+         url('gudea-regular.svg#GudeaRegular') format('svg');
+}

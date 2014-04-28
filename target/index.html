@@ -5,20 +5,39 @@
     <base href="/">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link type="text/css" rel="stylesheet" href="assets/stylesheets/styles.css" />
+    <link type="text/css" rel="stylesheet" href="assets/stylesheets/styles.css">
     <title>Hannah Landscape Architecture Portfolio Website</title>
 </head>
 
-<body ontouchstart ng-controller="Hannah as hannah">
+<body ontouchstart ng-controller="Hannah as hannah" ng-class="{noscroll: !coverSlideUp}">
 
-    <header></header>
+    <div ng-class="{up: coverSlideUp}" class="hz-cover-slide" hz-window-scroll="moveCoverSlide()">
+        <button ng-click="moveCoverSlide()"></button>
+    </div>
 
-    <div ng-view></div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/" ng-class="{selected: currentRoute == '/'}">Home</a>
+                </li>
+                <li><a href="/about" ng-class="{selected: currentRoute == '/about'}">About</a>
+                </li>
+                <li><a href="/resume" ng-class="{selected: currentRoute == '/resume'}">Resume</a>
+                </li>
+                <li><a href="/contact" ng-class="{selected: currentRoute == '/contact'}">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
 
+    <div id="main">
+        <div ui-view></div>
+    </div>
     <footer></footer>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular-animate.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular-route.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
 
@@ -38,7 +57,14 @@
     <script type="text/javascript" src="assets/scripts/controllers/home.js"></script>
     <script type="text/javascript" src="assets/scripts/controllers/main.js"></script>
     <script type="text/javascript" src="assets/scripts/controllers/project.js"></script>
+    <script type="text/javascript" src="assets/scripts/directives.js"></script>
+    <script type="text/javascript" src="assets/scripts/libs/angular-ui-router.min.js"></script>
+    <script type="text/javascript" src="assets/scripts/libs/panzoom.js"></script>
+    <script type="text/javascript" src="assets/scripts/libs/pointertouch.js"></script>
     <script type="text/javascript" src="assets/scripts/services.js"></script>
+    <script type="text/javascript" src="assets/scripts/src/controllers/home.js"></script>
+    <script type="text/javascript" src="assets/scripts/src/controllers/main.js"></script>
+    <script type="text/javascript" src="assets/scripts/src/controllers/project.js"></script>
 
     <!--[if lt IE 9]>
         <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>

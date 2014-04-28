@@ -1,0 +1,11 @@
+<nav>
+	<button class="button" ng-click="slideLeft()">Left</button>
+	<button class="button" ng-click="slideRight()">Right</button>
+</nav>
+<div class="hz-gallery-projects" hz-elem-width="containerWidth" hz-key="resizeKey" ng-init="imagesWidth = 90">
+	<ul ng-repeat="p in projects" ng-style="{transform: 'translateX('+leftOffset+'px)'}">
+		<li ng-repeat="image in p.images" ng-click="selectProjectImage(p, image)">
+			<img ng-src="assets/media/images/projects/{{p.imagesDir}}/thumb/{{image.src}}" hz-image-width="image.width" ng-class="{selected: image == selectedImage}">
+		</li>
+	</ul>
+</div>
