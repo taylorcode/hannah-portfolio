@@ -435,12 +435,18 @@ header li {
   background: url(../media/images/ui/signature-accent.svg) no-repeat;
   background-size: auto 100%;
 }
-/* line 8, ../../../dev/assets/stylesheets/views/_home.sass */
+@media only screen and (max-width: 780px) {
+  /* line 1, ../../../dev/assets/stylesheets/views/_home.sass */
+  #intro-content {
+    width: auto;
+  }
+}
+/* line 11, ../../../dev/assets/stylesheets/views/_home.sass */
 #intro-content p {
   margin-top: 20px;
 }
 
-/* line 16, ../../../dev/assets/stylesheets/views/_home.sass */
+/* line 19, ../../../dev/assets/stylesheets/views/_home.sass */
 .hz-cover-slide {
   width: 100%;
   height: 100%;
@@ -451,11 +457,11 @@ header li {
   display: none;
   vertical-align: center;
 }
-/* line 24, ../../../dev/assets/stylesheets/views/_home.sass */
+/* line 27, ../../../dev/assets/stylesheets/views/_home.sass */
 .hz-cover-slide.shown {
   display: block;
 }
-/* line 26, ../../../dev/assets/stylesheets/views/_home.sass */
+/* line 29, ../../../dev/assets/stylesheets/views/_home.sass */
 .hz-cover-slide.up {
   -webkit-transform: translateY(-100%);
   -moz-transform: translateY(-100%);
@@ -467,7 +473,7 @@ header li {
   -o-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
-/* line 30, ../../../dev/assets/stylesheets/views/_home.sass */
+/* line 33, ../../../dev/assets/stylesheets/views/_home.sass */
 .hz-cover-slide .hannah-circle {
   display: inline-block;
   vertical-align: bottom;
@@ -490,7 +496,7 @@ header li {
   border-radius: 210px;
 }
 @media only screen and (min-width: 1400px) {
-  /* line 30, ../../../dev/assets/stylesheets/views/_home.sass */
+  /* line 33, ../../../dev/assets/stylesheets/views/_home.sass */
   .hz-cover-slide .hannah-circle {
     width: 500px;
     height: 500px;
@@ -502,7 +508,7 @@ header li {
   }
 }
 @media only screen and (max-width: 780px) {
-  /* line 30, ../../../dev/assets/stylesheets/views/_home.sass */
+  /* line 33, ../../../dev/assets/stylesheets/views/_home.sass */
   .hz-cover-slide .hannah-circle {
     width: 300px;
     height: 300px;
@@ -513,7 +519,7 @@ header li {
     border-radius: 150px;
   }
 }
-/* line 48, ../../../dev/assets/stylesheets/views/_home.sass */
+/* line 51, ../../../dev/assets/stylesheets/views/_home.sass */
 .hz-cover-slide .hannah-circle span {
   background: url(../media/images/ui/down-arrow.svg) no-repeat center;
   display: block;
@@ -523,7 +529,7 @@ header li {
   cursor: pointer;
   position: absolute;
 }
-/* line 57, ../../../dev/assets/stylesheets/views/_home.sass */
+/* line 60, ../../../dev/assets/stylesheets/views/_home.sass */
 .hz-cover-slide .mesa-background {
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
@@ -555,19 +561,19 @@ header li {
   background-size: cover;
 }
 
-/* line 68, ../../../dev/assets/stylesheets/views/_home.sass */
+/* line 71, ../../../dev/assets/stylesheets/views/_home.sass */
 .hz-images-display {
   margin-top: 50px;
   margin-bottom: 15px;
   margin-right: -15px;
 }
 @media only screen and (max-width: 780px) {
-  /* line 68, ../../../dev/assets/stylesheets/views/_home.sass */
+  /* line 71, ../../../dev/assets/stylesheets/views/_home.sass */
   .hz-images-display {
     margin-right: 0px;
   }
 }
-/* line 75, ../../../dev/assets/stylesheets/views/_home.sass */
+/* line 78, ../../../dev/assets/stylesheets/views/_home.sass */
 .hz-images-display li {
   height: 150px;
   float: left;
@@ -575,7 +581,7 @@ header li {
   padding-left: 0px;
 }
 @media only screen and (max-width: 780px) {
-  /* line 75, ../../../dev/assets/stylesheets/views/_home.sass */
+  /* line 78, ../../../dev/assets/stylesheets/views/_home.sass */
   .hz-images-display li {
     float: none;
     padding-right: 0px;
@@ -583,7 +589,7 @@ header li {
     height: auto;
   }
 }
-/* line 85, ../../../dev/assets/stylesheets/views/_home.sass */
+/* line 88, ../../../dev/assets/stylesheets/views/_home.sass */
 .hz-images-display img {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
@@ -591,12 +597,12 @@ header li {
   max-height: 100%;
 }
 @media only screen and (max-width: 780px) {
-  /* line 85, ../../../dev/assets/stylesheets/views/_home.sass */
+  /* line 88, ../../../dev/assets/stylesheets/views/_home.sass */
   .hz-images-display img {
     width: 100%;
   }
 }
-/* line 90, ../../../dev/assets/stylesheets/views/_home.sass */
+/* line 93, ../../../dev/assets/stylesheets/views/_home.sass */
 .hz-images-display img:hover {
   -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);
