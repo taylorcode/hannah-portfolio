@@ -19,7 +19,6 @@ html
 	&.ng-leave-active
 		opacity: 0
 
-
 [ui-view]
 	h2
 		@include transition-duration(.4s)
@@ -67,6 +66,8 @@ header
 	li
 		display: inline-block
 		padding: 15px
+		@include respond-to(handhelds)
+			padding: 12px
 
 // base IDs
 
@@ -79,6 +80,7 @@ header
 		background: $bg-color
 		overflow: visible
 		position: absolute
+		margin-bottom: 40px
 	position: relative
 	overflow: visible
 

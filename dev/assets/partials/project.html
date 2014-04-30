@@ -2,6 +2,8 @@
 
 <div class="hz-gallery">
 
+	<h3>{{selectedImage.description}}</h3>
+
 	<figure class="hz-gallery-panzoom" panzoom hz-key="selectedImage">
 
 		<img ng-src="assets/media/images/projects/{{selectedProject.imagesDir}}/fullres/{{selectedImage.src}}">
@@ -9,7 +11,7 @@
 			<button class="button zoom-in">+</button>
 			<button class="button zoom-out">-</button>
 			<input type="range" class="zoom-range">
-			<button class="reset">Reset</button>
+			<button class="reset button" >Reset</button>
 		</nav>
 
 	</figure>
@@ -20,5 +22,3 @@
 		<div class="hz-gallery-thumbs" hz-gallery-thumbs="selectedCategory.projects" selected-project="selectedProject" selected-image="selectedImage"></div>
 	</div>
 </div>
-
-<div>{{selectedImage.description}}</div>

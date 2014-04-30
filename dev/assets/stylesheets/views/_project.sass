@@ -10,10 +10,36 @@
         position: absolute
         top: 0
         right: 0
+        margin: 15px 14px 0px 0px
     img
         height: 100%
+    input[type='range'], button
+        vertical-align: top
+        border: none
+        font-size: 12px
+        background: rgba(255, 255, 255, 0.3)
+        margin-right: 1px
+        border: 1px solid $accent-color
+        &:hover
+            background: rgba(255, 255, 255, .6)
+    button
+        height: 31px
+        padding: 0px 12px
+        color: $accent-color
+        margin-right: 1px
+    input[type='range']
+        cursor: pointer
+        background: rgba(255, 255, 255, 0.3)
+        margin-right: 1px
+        &::-webkit-slider-thumb
+            @include appearance(none)
+            width: 10px
+            height: 30px
+            background: $accent-color
 
 .hz-gallery-thumbs
+    @include respond-to(handhelds)
+        border-top: 2px solid white
     img
         height: 100%
         padding: 5px
