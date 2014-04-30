@@ -1,0 +1,31 @@
+@mixin hardware-accelerate
+	@include transform(translate3d(0,0,0))
+	@include backface-visibility(hidden)
+	@include perspective(1000)
+
+@mixin animation($animate...)
+	$max: length($animate)
+	$animations: ''
+
+	@for $i from 1 through $max 
+		$animations: #{$animations + nth($animate, $i)}
+
+		@if $i < $max 
+			$animations: #{$animations + ", "}
+	-webkit-animation: $animations
+	-moz-animation:    $animations
+	animation:         $animations
+
+@mixin keyframes($animationName)
+	@-webkit-keyframes #{$animationName}
+		@content
+
+	@-moz-keyframes #{$animationName}
+		@content
+
+	@keyframes #{$animationName}
+		@content
+
+@include keyframes(incredibleHulk)
+	50%
+		@include transform(scale(1.0))

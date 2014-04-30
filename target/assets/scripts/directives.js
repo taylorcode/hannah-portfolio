@@ -7,7 +7,7 @@
       },
       compile: function(elem, attrs) {
         var $elem;
-        $elem = elem.find('.zoom');
+        $elem = elem.find('img');
         $elem.panzoom({
           $zoomIn: elem.find('.zoom-in'),
           $zoomOut: elem.find('.zoom-out'),
@@ -22,23 +22,30 @@
         };
       }
     };
-  }).directive('hzWindowScroll', function() {
+  }).directive('hzWindowScroll', function($timeout) {
     return {
       restrict: 'A',
       scope: {
         scrollUp: '&hzWindowScroll'
       },
       link: function(scope, elem, attrs) {
-        var scrolled;
+        var cb, event, scrollWheelDelay, scrolled;
         scrolled = false;
-        return $(window).on('scroll', function() {
+        event = 'mousewheel';
+        scrollWheelDelay = 1000;
+        cb = function(e) {
           scope.$apply(function() {
             if (!scrolled) {
               return scope.scrollUp();
             }
           });
-          return scrolled = true;
-        });
+          scrolled = true;
+          e.preventDefault();
+          return $timeout(function() {
+            return $(this).off(event, cb);
+          }, scrollWheelDelay);
+        };
+        return $(window).on(event, cb);
       }
     };
   }).directive('hzImageWidth', function() {

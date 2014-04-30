@@ -7,7 +7,7 @@
     }).state('base', {
       templateUrl: 'assets/partials/base.html',
       onEnter: function($rootScope) {
-        return $rootScope.coverSlideUp = true;
+        return $rootScope.coverSlideUp = $rootScope.slidUp = true;
       }
     }).state('project', {
       url: '/project/:id',
@@ -20,7 +20,7 @@
       parent: 'base'
     }).state('resume', {
       url: '/resume',
-      templateUrl: 'assets/partials/Resume.html',
+      templateUrl: 'assets/partials/resume.html',
       parent: 'base'
     }).state('contact', {
       url: '/contact',
@@ -28,6 +28,8 @@
       parent: 'base'
     });
     return $locationProvider.html5Mode(true);
+  }).run(function() {
+    return FastClick.attach(document.body);
   });
 
 }).call(this);

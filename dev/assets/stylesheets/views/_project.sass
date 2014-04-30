@@ -4,10 +4,14 @@
         text-align: center
 
 .hz-gallery-panzoom
+    border: 1px solid $gray
+    background: $lightest-gray
     nav
         position: absolute
         top: 0
         right: 0
+    img
+        height: 100%
 
 .hz-gallery-thumbs
     img
@@ -32,14 +36,19 @@
         &:last-child
             right: 0
         width: 40px
+        text-indent: -99999px
+        background: url(../media/images/ui/arrow.svg) no-repeat center
+        &:last-child
+            @include transform(rotate(180deg))
     nav
         position: relative
         overflow: visible
 
 .hz-gallery-controls
-    background: black
+    border-top: 2px solid white
+    background: $light-accent-gray
+    color: black
     span
-        color: white
         display: inline-block
         line-height: 90px
         padding: 0 15px
@@ -48,7 +57,7 @@
             float: none
     .hz-project-title
         padding-right: 40px
-        border-left: 1px solid $bg-color
+        border-left: 2px solid white
 
 .hz-gallery-projects
     margin: 0 40px

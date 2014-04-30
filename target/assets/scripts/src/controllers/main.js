@@ -1,15 +1,20 @@
 (function() {
-  angular.module('hannah').controller('Hannah', function($route, $routeParams, $location, $scope, $http, $filter, $rootScope) {
+  angular.module('hannah').controller('Hannah', function($route, $routeParams, $location, $scope, $http, $filter, $rootScope, $timeout) {
+    var slideUpDuration;
     log('Hannah Controller Initialized');
     this.$route = $route;
     this.$location = $location;
     this.$routeParams = $routeParams;
     $rootScope.coverSlideUp = false;
+    slideUpDuration = 500;
     $http.get('assets/json/projects.json').success(function(categories) {
       return $scope.categories = categories;
     });
     $rootScope.moveCoverSlide = function() {
-      return $rootScope.coverSlideUp = true;
+      $rootScope.coverSlideUp = true;
+      return $timeout(function() {
+        return $rootScope.slidUp = true;
+      }, slideUpDuration);
     };
     $scope.category = {
       findByRouteId: function(routeId) {

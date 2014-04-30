@@ -1,12 +1,12 @@
 angular.module('hannah')
 
-.controller 'Hannah', ($route, $routeParams, $location, $scope, $http, $filter, $rootScope) ->
+.controller 'Hannah', ($route, $routeParams, $location, $scope, $http, $filter, $rootScope, $timeout) ->
     log 'Hannah Controller Initialized'
     @$route = $route
     @$location = $location
     @$routeParams = $routeParams
-
     $rootScope.coverSlideUp = false
+    slideUpDuration = 500
 
     # get projects, attach to parent $scope
     $http.get 'assets/json/projects.json'
@@ -15,6 +15,9 @@ angular.module('hannah')
 
     $rootScope.moveCoverSlide = ->
         $rootScope.coverSlideUp = true
+        $timeout ->
+            $rootScope.slidUp = true
+        , slideUpDuration
 
     $scope.category = 
         findByRouteId: (routeId) ->

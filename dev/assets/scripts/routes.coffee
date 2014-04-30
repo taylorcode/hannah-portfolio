@@ -10,7 +10,7 @@ window.hannah = angular.module('hannah', ['ngRoute', 'ui.router', 'ngAnimate'])
     .state 'base',
       templateUrl: 'assets/partials/base.html'
       onEnter: ($rootScope) ->
-        $rootScope.coverSlideUp = true
+        $rootScope.coverSlideUp = $rootScope.slidUp = true
     .state 'project',
       url: '/project/:id'
       templateUrl: 'assets/partials/project.html'
@@ -22,7 +22,7 @@ window.hannah = angular.module('hannah', ['ngRoute', 'ui.router', 'ngAnimate'])
       parent: 'base'
     .state 'resume',
       url: '/resume'
-      templateUrl: 'assets/partials/Resume.html'
+      templateUrl: 'assets/partials/resume.html'
       parent: 'base'
     .state 'contact',
       url: '/contact'
@@ -31,4 +31,7 @@ window.hannah = angular.module('hannah', ['ngRoute', 'ui.router', 'ngAnimate'])
 
     $locationProvider.html5Mode true
 
+.run ->
+  FastClick.attach document.body
+  
 

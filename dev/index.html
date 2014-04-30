@@ -9,10 +9,13 @@
     <title>Hannah Landscape Architecture Portfolio Website</title>
 </head>
 
-<body ontouchstart ng-controller="Hannah as hannah" ng-class="{noscroll: !coverSlideUp}">
+<body ontouchstart ng-controller="Hannah as hannah">
 
-    <div ng-class="{up: coverSlideUp}" class="hz-cover-slide" hz-window-scroll="moveCoverSlide()">
-        <button ng-click="moveCoverSlide()"></button>
+    <div ng-if="!slidUp" ng-class="{up: coverSlideUp, shown: !slidUp}" class="hz-cover-slide" hz-window-scroll="moveCoverSlide()">
+        <div class="mesa-background"></div>
+        <div class="hannah-circle">
+            <span ng-click="moveCoverSlide()"></span>
+        </div>
     </div>
 
     <header>

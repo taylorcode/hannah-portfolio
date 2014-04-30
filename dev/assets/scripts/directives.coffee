@@ -6,7 +6,7 @@ angular.module('hannah')
 		hzKey: '='
 	compile: (elem, attrs) ->
 
-		$elem = elem.find '.zoom'
+		$elem = elem.find 'img'
 
 		$elem.panzoom
 	        $zoomIn: elem.find '.zoom-in'
@@ -20,16 +20,24 @@ angular.module('hannah')
 				$elem.panzoom 'reset'
 			log 'panzoom link init'
 
-.directive 'hzWindowScroll', ->
+.directive 'hzWindowScroll', ($timeout) ->
 	restrict: 'A'
 	scope:
 		scrollUp: '&hzWindowScroll'
 	link: (scope, elem, attrs) ->
 		scrolled = false
-		$(window).on 'scroll', ->
+		event = 'mousewheel'
+		scrollWheelDelay = 1000
+		cb = (e) ->
 			scope.$apply ->
 				scope.scrollUp() if not scrolled
 			scrolled = true
+			e.preventDefault()
+			$timeout ->
+				$(@).off event, cb
+			, scrollWheelDelay
+
+		$(window).on event, cb
 
 
 .directive 'hzImageWidth', () ->

@@ -91,6 +91,97 @@
         ]
     },
     {
+        "name": "Other Residential Projects",
+        "projects": [
+            {
+                "title": "title of project A",
+                "imagesDir": "residential",
+                "images": [
+                    {
+                        "src": "cat1.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titlasdasde."
+                    },
+                    {
+                        "src": "cat2.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdle."
+                    },
+                    {
+                        "src": "cat1.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titlasdasde."
+                    },
+                    {
+                        "src": "cat2.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdle."
+                    },
+                    {
+                        "src": "cat1.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titlasdasde."
+                    },
+                    {
+                        "src": "cat2.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdle."
+                    },
+                    {
+                        "src": "cat1.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titlasdasde."
+                    },
+                    {
+                        "src": "cat2.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdle."
+                    },
+                    {
+                        "src": "cat1.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titlasdasde."
+                    },
+                    {
+                        "src": "cat2.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdle."
+                    },
+                    {
+                        "src": "cat1.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titlasdasde."
+                    },
+                    {
+                        "src": "cat2.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdle."
+                    },
+                    {
+                        "src": "cat1.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titlasdasde."
+                    },
+                    {
+                        "src": "cat2.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdle."
+                    },
+                    {
+                        "src": "cat1.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titlasdasde."
+                    },
+                    {
+                        "src": "cat2.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdle."
+                    }
+                ]
+            }
+        ]
+    },
+    {
         "name": "Other Projects",
         "projects": [
             {
@@ -115,5 +206,82 @@
                 ]
             }
         ]
+    },
+    {
+        "name": "Cat Projects",
+        "projects": [
+            {
+                "title": "The first cat project",
+                "imagesDir": "cats",
+                "images": [
+                    {
+                        "src": "cat5.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdfsdfsdfsdle."
+                    },
+                    {
+                        "src": "cat5.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdle."
+                    },
+                    {
+                        "src": "cat5.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdle."
+                    },
+                    {
+                        "src": "cat5.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdfsdfsdfsdle."
+                    },
+                    {
+                        "src": "cat5.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdle."
+                    },
+                    {
+                        "src": "cat5.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdle."
+                    },
+                    {
+                        "src": "cat6.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdfsdfsdfsdle."
+                    },
+                    {
+                        "src": "cat6.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdfsdfsdfsdle."
+                    },
+                    {
+                        "src": "cat6.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdfsdfsdfsdle."
+                    },
+                    {
+                        "src": "cat6.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdfsdfsdfsdle."
+                    },
+                    {
+                        "src": "cat1.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdfsdfsdfsdle."
+                    },
+                    {
+                        "src": "cat1.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdfsdfsdfsdle."
+                    },
+                    {
+                        "src": "cat2.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdfsdfsdfsdle."
+                    }
+                ]
+            }
+        ]
     }
+
 ]
