@@ -662,28 +662,34 @@ header li {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  border: none;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  -o-border-radius: 0px;
+  border-radius: 0px;
   width: 10px;
   height: 30px;
   background: #008487;
 }
 
 @media only screen and (max-width: 780px) {
-  /* line 40, ../../../dev/assets/stylesheets/views/_project.sass */
+  /* line 42, ../../../dev/assets/stylesheets/views/_project.sass */
   .hz-gallery-thumbs {
     border-top: 2px solid white;
   }
 }
-/* line 43, ../../../dev/assets/stylesheets/views/_project.sass */
+/* line 45, ../../../dev/assets/stylesheets/views/_project.sass */
 .hz-gallery-thumbs img {
   height: 100%;
   padding: 5px;
   padding-left: 0;
 }
-/* line 47, ../../../dev/assets/stylesheets/views/_project.sass */
+/* line 49, ../../../dev/assets/stylesheets/views/_project.sass */
 .hz-gallery-thumbs ul {
   vertical-align: bottom;
 }
-/* line 49, ../../../dev/assets/stylesheets/views/_project.sass */
+/* line 51, ../../../dev/assets/stylesheets/views/_project.sass */
 .hz-gallery-thumbs li {
   cursor: pointer;
   display: inline-block;
@@ -693,11 +699,11 @@ header li {
   text-align: center;
   vertical-align: bottom;
 }
-/* line 56, ../../../dev/assets/stylesheets/views/_project.sass */
+/* line 58, ../../../dev/assets/stylesheets/views/_project.sass */
 .hz-gallery-thumbs li:last-child img {
   padding-right: 0;
 }
-/* line 59, ../../../dev/assets/stylesheets/views/_project.sass */
+/* line 61, ../../../dev/assets/stylesheets/views/_project.sass */
 .hz-gallery-thumbs button {
   position: absolute;
   line-height: 90px;
@@ -705,11 +711,11 @@ header li {
   text-indent: -99999px;
   background: url(../media/images/ui/arrow.svg) no-repeat center;
 }
-/* line 62, ../../../dev/assets/stylesheets/views/_project.sass */
+/* line 64, ../../../dev/assets/stylesheets/views/_project.sass */
 .hz-gallery-thumbs button:last-child {
   right: 0;
 }
-/* line 67, ../../../dev/assets/stylesheets/views/_project.sass */
+/* line 69, ../../../dev/assets/stylesheets/views/_project.sass */
 .hz-gallery-thumbs button:last-child {
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
@@ -717,19 +723,19 @@ header li {
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
 }
-/* line 69, ../../../dev/assets/stylesheets/views/_project.sass */
+/* line 71, ../../../dev/assets/stylesheets/views/_project.sass */
 .hz-gallery-thumbs nav {
   position: relative;
   overflow: visible;
 }
 
-/* line 73, ../../../dev/assets/stylesheets/views/_project.sass */
+/* line 75, ../../../dev/assets/stylesheets/views/_project.sass */
 .hz-gallery-controls {
   border-top: 2px solid white;
   background: #dee5e6;
   color: black;
 }
-/* line 77, ../../../dev/assets/stylesheets/views/_project.sass */
+/* line 79, ../../../dev/assets/stylesheets/views/_project.sass */
 .hz-gallery-controls span {
   display: inline-block;
   line-height: 90px;
@@ -737,22 +743,32 @@ header li {
   float: left;
 }
 @media only screen and (max-width: 780px) {
-  /* line 77, ../../../dev/assets/stylesheets/views/_project.sass */
+  /* line 79, ../../../dev/assets/stylesheets/views/_project.sass */
   .hz-gallery-controls span {
     float: none;
+    line-height: 40px;
+    display: block;
   }
 }
-/* line 84, ../../../dev/assets/stylesheets/views/_project.sass */
+/* line 88, ../../../dev/assets/stylesheets/views/_project.sass */
 .hz-gallery-controls .hz-project-title {
   padding-right: 40px;
   border-left: 2px solid white;
 }
+@media only screen and (max-width: 780px) {
+  /* line 88, ../../../dev/assets/stylesheets/views/_project.sass */
+  .hz-gallery-controls .hz-project-title {
+    padding-right: 15px;
+    border-top: 2px solid white;
+    border-left: none;
+  }
+}
 
-/* line 88, ../../../dev/assets/stylesheets/views/_project.sass */
+/* line 96, ../../../dev/assets/stylesheets/views/_project.sass */
 .hz-gallery-projects {
   margin: 0 40px;
 }
-/* line 90, ../../../dev/assets/stylesheets/views/_project.sass */
+/* line 98, ../../../dev/assets/stylesheets/views/_project.sass */
 .hz-gallery-projects ul {
   white-space: nowrap;
   display: inline-block;
@@ -761,7 +777,7 @@ header li {
   -o-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-/* line 95, ../../../dev/assets/stylesheets/views/_project.sass */
+/* line 103, ../../../dev/assets/stylesheets/views/_project.sass */
 .hz-gallery-projects img.selected {
   opacity: 0.7;
 }
