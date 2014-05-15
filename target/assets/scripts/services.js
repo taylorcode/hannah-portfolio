@@ -1,7 +1,9 @@
 (function() {
-  angular.module('hannah').filter('camelCaseToDash', function() {
+  angular.module('hannah').filter('titleCaseToDash', function() {
     return function(value) {
-      return value.replace(' ', '-').toLowerCase();
+      if (value) {
+        return value.replace(/\s+/g, '-').toLowerCase();
+      }
     };
   });
 

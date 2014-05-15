@@ -4,10 +4,10 @@
 </div>
 <ul class="hz-images-display">
 	<li ng-repeat="category in categories">
-		<a ng-href="/project/{{category.name | camelCaseToDash}}">
+		<a ng-href="/category/{{category.name | titleCaseToDash}}">
 			<figure>
-				<img ng-src="assets/media/images/projects/{{category.projects[0].imagesDir}}/display/{{category.projects[0].images[0].src}}">
-				<figcaption>{{category.description}}</figcaption>
+				<img ng-src="assets/media/images/categories/{{category.name | titleCaseToDash}}/{{category.projects[0].title | titleCaseToDash}}/display/{{category.projects[0].images[0].src | titleCaseToDash}}">
+				<figcaption><span>{{category.name}}</span></figcaption>
 			</figure>
 		</a>
 	</li>

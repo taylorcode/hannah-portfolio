@@ -24,7 +24,7 @@
         }
         foundCategory = null;
         _.every($scope.categories, function(category) {
-          if (routeId === $filter('camelCaseToDash')(category.name)) {
+          if (routeId === $filter('titleCaseToDash')(category.name)) {
             foundCategory = category;
           }
           if (foundCategory) {

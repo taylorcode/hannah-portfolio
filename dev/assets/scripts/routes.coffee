@@ -11,10 +11,10 @@ window.hannah = angular.module('hannah', ['ngRoute', 'ui.router', 'ngAnimate'])
       templateUrl: 'assets/partials/base.html'
       onEnter: ($rootScope) ->
         $rootScope.coverSlideUp = $rootScope.slidUp = true
-    .state 'project',
-      url: '/project/:id'
-      templateUrl: 'assets/partials/project.html'
-      controller: 'Project as project'
+    .state 'category',
+      url: '/category/:id'
+      templateUrl: 'assets/partials/category.html'
+      controller: 'Category as category'
       parent: 'base'
     .state 'about',
       url: '/about'

@@ -1,0 +1,84 @@
+[
+    {
+        "name": "Residential Design",
+        "projects": [
+            {
+                "title": "Pecan Residence",
+                "dir": "pecan-residence",
+                "images": [
+                    {
+                        "src": "pecan-street.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdfsdfsdfsdle."
+                    }
+                ]
+            },
+            {
+                "title": "Montgomery Residence",
+                "dir": "montgomery-residence",
+                "images": [
+                    {
+                        "src": "artistic-barn.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdfsdfsdfsdle."
+                    },
+                    {
+                        "src": "artistic-house.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdfsdfsdfsdle."
+                    },
+                    {
+                        "src": "artistic-section.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdfsdfsdfsdle."
+                    },
+                    {
+                        "src": "barn-at-night.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdfsdfsdfsdle."
+                    },
+                    {
+                        "src": "barn-panorama.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdfsdfsdfsdle."
+                    },
+                    {
+                        "src": "building-model.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdfsdfsdfsdle."
+                    },
+                    {
+                        "src": "entrance-perspective.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdfsdfsdfsdle."
+                    },
+                    {
+                        "src": "farm-plan.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdfsdfsdfsdle."
+                    },
+                    {
+                        "src": "house-before.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdfsdfsdfsdle."
+                    },
+                    {
+                        "src": "house-perspective.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdfsdfsdfsdle."
+                    },
+                    {
+                        "src": "labeled-building-model.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdfsdfsdfsdle."
+                    },
+                    {
+                        "src": "patio-perspective.jpg",
+                        "title": "title of image 1",
+                        "description": "This is the titasdasdfsdfsdfsdle."
+                    }
+                ]
+            }
+        ]
+    }
+]

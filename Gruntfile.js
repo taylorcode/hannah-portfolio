@@ -1,5 +1,7 @@
 module.exports = function (grunt) {
 
+    grunt.loadTasks('./custom-tasks');
+
     grunt.initConfig({
         pkg: grunt.file.readJSON('package.json'),
         coffee: {
@@ -10,6 +12,28 @@ module.exports = function (grunt) {
                 dest: 'target/assets',
                 ext: '.js'
             }
+        },
+
+        projectJSON: {
+            default: {
+                src: 'dev/assets/categories',
+                dest: 'target/assets/json/projects.json'
+            }
+        },
+
+
+        clean: ['target', '!target/assets/media/images', '!target/assets/json'],
+
+        copy: {
+          main: {
+            expand: true,
+            cwd: 'dev/assets/categories',
+            src: '**',
+            dest: 'dev/assets/media/raw-images/categories',
+            rename: function (dest, filename) {
+                return dest + '/' + filename.replace(/\s+/g, '-').toLowerCase()
+            }
+          }
         },
 
         compass: {
@@ -49,19 +73,35 @@ module.exports = function (grunt) {
             default: {
                 files: [{
                     cwd: 'dev/assets',
-                    src: ['**', '!**/*.coffee', '!**/*.sass'], // sync everything but coffee and sass files
+                    src: ['**', '!**/*.coffee', '!**/*.sass', '!categories/**', '!media/raw-images/**'],
                     dest: 'target/assets'
                 }]
             }
         },
 
-        delete_sync: {
+        responsive_images: {
             default: {
-                cwd: 'target/assets',
-                src: ['**', '!**/*.js', '!**/*.css'], // sync everything but js and css files
-                syncWith: 'dev/assets'
+                options: {
+                    sizes: [{
+                        width: 320,
+                        name: 'thumb'
+                    }, {
+                        width: 640,
+                        name: 'display'
+                    }, {
+                        width: 1024,
+                        name: 'fullres'
+                    }]
+                },
+                files: [{
+                    expand: true,
+                    src: ['**/*.{jpg,gif,png}'],
+                    cwd: 'dev/assets/media/raw-images/categories',
+                    custom_dest: 'target/assets/media/images/categories/{%= path %}/{%= name %}'
+                }]
             }
         },
+
         watch: {
             coffeescript: {
                 files: ['dev/assets/**/*.coffee'],
@@ -76,8 +116,8 @@ module.exports = function (grunt) {
                 tasks: ['htmlbuild'] 
             },
             sync_assets: {
-                files: ['dev/assets/**'],
-                tasks: ['sync', 'delete_sync']
+                files: ['dev/assets/**', '!dev/assets/categories/**', '!dev/assets/media/raw-images/**'],
+                tasks: ['sync']
             },
             index: {
                 files: ['dev/index.html'],
@@ -101,5 +141,5 @@ module.exports = function (grunt) {
     });
 
     // setup our workflow
-    grunt.registerTask('default', ['coffee', 'compass', 'sync', 'delete_sync', 'htmlbuild', 'watch']);
+    grunt.registerTask('default', ['clean', 'coffee', 'compass', 'htmlbuild', 'sync', 'copy', 'watch']);
 }

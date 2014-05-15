@@ -24,7 +24,7 @@ angular.module('hannah')
             return if not $scope.categories
             foundCategory = null
             _.every $scope.categories, (category) ->
-                foundCategory = category if routeId is $filter('camelCaseToDash') category.name
+                foundCategory = category if routeId is $filter('titleCaseToDash') category.name
                 return false if foundCategory
                 true
 

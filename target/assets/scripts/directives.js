@@ -86,7 +86,8 @@
       scope: {
         projects: '=hzGalleryThumbs',
         selectedProject: '=',
-        selectedImage: '='
+        selectedImage: '=',
+        categoryName: '='
       },
       controller: function($scope) {
         var image, project, reset, slideLimit;
@@ -114,8 +115,8 @@
           if ($scope.containerWidth > $scope.imagesWidth) {
             return;
           }
-          if ($scope.slideIndex + 1 > project.images.length) {
-            return $scope.slideIndex = project.images.length;
+          if ($scope.slideIndex + 1 > $scope.images.length) {
+            return $scope.slideIndex = $scope.images.length - 1;
           } else {
             return $scope.slideIndex += 1;
           }
@@ -132,7 +133,7 @@
           i = 0;
           slideWidth = 0;
           while (i < index) {
-            slideWidth += project.images[i].width;
+            slideWidth += $scope.images[i].width;
             i++;
           }
           $scope.leftOffset = -slideWidth;
@@ -142,12 +143,15 @@
           var notLoaded, totalWidth;
           totalWidth = 0;
           notLoaded = false;
+          $scope.images = [];
           _.every(ps, function(p) {
             return _.every(p.images, function(img) {
+              log(img);
               if (!img.width) {
                 notLoaded = true;
                 return false;
               }
+              $scope.images.push(img);
               return totalWidth += img.width;
             });
           });

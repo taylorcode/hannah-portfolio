@@ -45,7 +45,9 @@
     <script>
     (function () {
 
-        if('<%= environment %>' === 'dev') return window.log = console.log.bind(console);
+        if('<%= environment %>' === 'dev') return window.log = function () {
+            console.log.apply(console, arguments);
+        }
         window.log = function () {};
 
     }).call(this);

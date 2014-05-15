@@ -2,7 +2,7 @@
 	h1
 		line-height: 50px
 		text-indent: -99999px
-		background: url(../media/images/ui/signature-accent.svg) no-repeat
+		background: url(../media/ui/signature-accent.svg) no-repeat
 		background-size: auto 100%
 	width: 400px
 	@include respond-to(handhelds)
@@ -41,7 +41,7 @@
 		bottom: 0
 		right: 0
 		overflow: visible
-		background: url(../media/images/ui/signature.svg) no-repeat center
+		background: url(../media/ui/signature.svg) no-repeat center
 		background-size: 80%
 		@include hz-cover-slide-center-circle(420px)
 		@include respond-to(wide-screens)
@@ -49,7 +49,7 @@
 		@include respond-to(handhelds)
 			@include hz-cover-slide-center-circle(300px)
 		span
-			background: url(../media/images/ui/down-arrow.svg) no-repeat center
+			background: url(../media/ui/down-arrow.svg) no-repeat center
 			display: block
 			height: 100px
 			width: 100%
@@ -64,7 +64,7 @@
 		height: 100%
 		width: 100%
 		position: absolute
-		background: url(../media/images/ui/mesa-photo.jpg) no-repeat center
+		background: url(../media/ui/mesa-photo.jpg) no-repeat center
 		background-size: cover
 
 
@@ -80,6 +80,35 @@
 		float: left
 		padding: 15px
 		padding-left: 0px
+		a
+			height: 100%
+			width: 100%
+			display: inline-block
+		figure
+			height: 100%
+			position: relative
+			&:hover
+				figcaption
+					display: none
+
+		figcaption
+			background: rgb(0, 0, 0)
+			background: rgba(83, 119, 129, 0.6)
+			color: white
+			pointer-events: none
+			display: table
+			position: absolute
+			width: 100%
+			height: 100%
+			top: 0
+			left: 0
+			text-align: center
+			span
+				display: table-cell
+				vertical-align: middle
+			@include respond-to(handhelds)
+				padding: 16px 0px
+
 		@include respond-to(handhelds)
 			float: none
 			padding-right: 0px
@@ -87,9 +116,11 @@
 			height: auto
 	img
 		@include filter(grayscale(100%))
-		max-height: 100%
+		height: 100%
+		width: auto
 		@include respond-to(handhelds)
 			width: 100%
+			height: auto
 		&:hover
 			@include filter(grayscale(0%))
 

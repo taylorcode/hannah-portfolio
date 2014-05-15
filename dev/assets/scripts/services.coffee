@@ -1,8 +1,8 @@
 angular.module('hannah')
 
-.filter 'camelCaseToDash', () ->
+.filter 'titleCaseToDash', () ->
 	(value) ->
-		value.replace(' ', '-').toLowerCase()
+		value.replace(/\s+/g, '-').toLowerCase() if value
 # .factory 'jgApi', ($resource) ->
 #   resumes: $resource 'api/account/resumes/', id: '@_id'
 #   job: $resource 'api/jobs/:_id', _id: '@_id'

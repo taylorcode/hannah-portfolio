@@ -1,0 +1,122 @@
+.hz-gallery
+    figure
+        height: 500px
+        text-align: center
+
+.hz-gallery-panzoom
+    border: 1px solid $gray
+    background: $lightest-gray
+    nav
+        position: absolute
+        top: 0
+        right: 0
+        margin: 15px 14px 0px 0px
+    img
+        height: 100%
+    input[type='range'], button
+        vertical-align: top
+        border: none
+        font-size: 12px
+        background: rgba(255, 255, 255, 0.3)
+        margin-right: 1px
+        border: 1px solid $accent-color
+        &:hover
+            background: rgba(255, 255, 255, .6)
+    button
+        height: 31px
+        padding: 0px 12px
+        color: $accent-color
+        margin-right: 1px
+    input[type='range']
+        cursor: pointer
+        background: rgba(255, 255, 255, 0.3)
+        margin-right: 1px
+        &::-webkit-slider-thumb
+            @include appearance(none)
+            border: none
+            @include border-radius(0px)
+            width: 10px
+            height: 30px
+            background: $accent-color
+
+.hz-gallery-thumbs
+    @include respond-to(handhelds)
+        border-top: 2px solid white
+    img
+        height: 100%
+        padding: 5px
+        padding-left: 0
+    ul
+        vertical-align: bottom
+    li
+        cursor: pointer
+        display: inline-block
+        padding-bottom: 10px
+        font-size: 0
+        height: 80px
+        text-align: center
+        &:last-child img
+            padding-right: 0
+        vertical-align: bottom
+    button
+        position: absolute
+        line-height: $gallery-controls-height
+        &:last-child
+            right: 0
+        width: 40px
+        text-indent: -99999px
+        background: url(../media/ui/arrow.svg) no-repeat center
+        &:last-child
+            @include transform(rotate(180deg))
+    nav
+        position: relative
+        overflow: visible
+
+.hz-gallery-controls
+    border-top: 2px solid white
+    background: $light-accent-gray
+    color: black
+    height: $gallery-controls-height
+    @include respond-to(handhelds)
+        height: auto
+        section
+            width: 100%
+    > div
+        display: table
+        float: left
+        height: 100%
+        width: 160px
+        &:first-child
+            span
+                border-right: 2px solid white
+        @include respond-to(handhelds)
+            height: 60px
+            width: 50%
+            border: none
+        span
+            display: table-cell
+            vertical-align: middle
+            padding: 0 15px
+
+    .hz-project-title
+        padding-right: 20px
+        width: 70px
+        border-left: 2px solid white
+        @include respond-to(handhelds)
+            padding-right: 15px
+            border-top: 2px solid white
+            border-left: none
+
+.hz-gallery-projects
+    margin: 0 40px
+    > div
+        white-space: nowrap
+        overflow: visible
+        display: inline-block
+        @include transition-duration(.3s)
+    ul
+        white-space: nowrap
+        display: inline-block
+    img
+        &.selected
+            opacity: .7
