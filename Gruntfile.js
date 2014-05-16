@@ -84,13 +84,16 @@ module.exports = function (grunt) {
                 options: {
                     sizes: [{
                         width: 320,
-                        name: 'thumb'
+                        name: 'thumb',
+                        quality: 70
                     }, {
                         width: 640,
-                        name: 'display'
+                        name: 'display',
+                        quality: 70
                     }, {
-                        width: 1024,
-                        name: 'fullres'
+                        width: 2000,
+                        name: 'fullres',
+                        quality: 70
                     }]
                 },
                 files: [{

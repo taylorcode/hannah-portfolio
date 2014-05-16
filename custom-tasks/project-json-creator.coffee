@@ -18,25 +18,25 @@ jsonKeyMap = (categories) ->
     )
   )
 
-createKeyMap = (abspath, categories, category, project, filename) ->
+# createKeyMap = (abspath, categories, category, project, filename) ->
 
-  return new RSVP.Promise (resolve, reject) ->
+#   return new RSVP.Promise (resolve, reject) ->
 
-    # extract meta data
-    im.readMetadata abspath, (err, metadata) ->
-      if categories[category]
-        c = categories[category]
-        c[project] = {} unless c[project]
-        p = c[project]
+#     # extract meta data
+#     im.readMetadata abspath, (err, metadata) ->
+#       if categories[category]
+#         c = categories[category]
+#         c[project] = {} unless c[project]
+#         p = c[project]
 
-      else
-        c = categories[category] = {}
-        p = c[project] = {}
+#       else
+#         c = categories[category] = {}
+#         p = c[project] = {}
 
-      if metadata.exif
-        p[filename] = metadata.exif.imageDescription or null
+#       if metadata.exif
+#         p[filename] = metadata.exif.imageDescription or null
       
-      resolve()
+#       resolve()
 
 
 module.exports = (grunt) ->
@@ -59,11 +59,29 @@ module.exports = (grunt) ->
       category = subDirParts[0]
       project = subDirParts[1]
 
-      exifPromises.push createKeyMap abspath, categories, category, project, filename
 
-    RSVP.all(exifPromises).then ->
+      if categories[category]
+        c = categories[category]
+        c[project] = {} unless c[project]
+        p = c[project]
+
+      else
+        c = categories[category] = {}
+        p = c[project] = {}
+
+      p[filename] = ' '
+
+      # if metadata.exif
+      #   p[filename] = metadata.exif.imageDescription or null
+
       grunt.file.write dest, JSON.stringify jsonKeyMap categories
-      done()
+
+      # exifPromises.push createKeyMap abspath, categories, category, project, filename
+
+    # RSVP.all(exifPromises).then ->
+    #   console.log arguments
+    #   grunt.file.write dest, JSON.stringify jsonKeyMap categories
+    #   done()
 
     return
 
