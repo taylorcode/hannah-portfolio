@@ -8,10 +8,16 @@ angular.module('hannah')
     $rootScope.coverSlideUp = false
     slideUpDuration = 500
 
+
+    # preloadImages = (categories) ->
+    #     _.each categories, (category) -> _.each category.projects, (project) -> _.each project.images
+
+
     # get projects, attach to parent $scope
     $http.get 'assets/json/projects.json'
     .success (categories) ->
         $scope.categories = categories
+        #preloadImages categories
 
     $rootScope.moveCoverSlide = ->
         $rootScope.coverSlideUp = true

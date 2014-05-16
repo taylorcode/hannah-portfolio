@@ -1,459 +1,41 @@
 [
     {
-        "name": "Graphic Design",
-        "projects": [
-            {
-                "title": "Infographics",
-                "dir": "Infographics",
-                "images": [
-                    {
-                        "src": "agranescada.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "bubble-diagram.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "case-study.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "design-elements-matrix.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "donnely-park.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "section-info.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "timeline.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "water-erosion.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "word-art.jpg",
-                        "description": " "
-                    }
-                ]
-            },
-            {
-                "title": "Printed Pieces",
-                "dir": "Printed Pieces",
-                "images": [
-                    {
-                        "src": "be-obsessive.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "magazine-cover.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "manifesto.jpg",
-                        "description": " "
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Hand Sketches",
-        "projects": [
-            {
-                "title": "Models",
-                "dir": "Models",
-                "images": [
-                    {
-                        "src": "inked-train.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "parasite-sketch.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "section 2.jpg",
-                        "description": " "
-                    }
-                ]
-            },
-            {
-                "title": "Planting",
-                "dir": "Planting",
-                "images": [
-                    {
-                        "src": "high-grove-perspective.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "high-grove-section.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "partial-sketch.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "partial-vingette.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "shade-sketch.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "shade-vignette.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "sun-sketch.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "sun-vignette.jpg",
-                        "description": " "
-                    }
-                ]
-            },
-            {
-                "title": "School Assignments",
-                "dir": "School Assignments",
-                "images": [
-                    {
-                        "src": "close-up-library.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "mosaic-garden.jpg",
-                        "description": " "
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Photography and Models",
-        "projects": [
-            {
-                "title": "Built Models",
-                "dir": "Built Models",
-                "images": [
-                    {
-                        "src": "built-chair.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "front-of-parasite.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "mini-chair.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "parasite-on-street.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "parasite.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "side-of-parasite.jpg",
-                        "description": " "
-                    }
-                ]
-            },
-            {
-                "title": "Computer Models",
-                "dir": "Computer Models",
-                "images": [
-                    {
-                        "src": "Chair Project.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "chair.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "cool-lighting.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "pen.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "red-and-blue-chair.jpg",
-                        "description": " "
-                    }
-                ]
-            },
-            {
-                "title": "Me",
-                "dir": "Me",
-                "images": [
-                    {
-                        "src": "photo-of-me.jpg",
-                        "description": " "
-                    }
-                ]
-            },
-            {
-                "title": "Tutorials",
-                "dir": "Tutorials",
-                "images": [
-                    {
-                        "src": "tutorial-grass.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "tutorial-house.jpg",
-                        "description": " "
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Planting Design",
-        "projects": [
-            {
-                "title": "Full Projects",
-                "dir": "Full Projects",
-                "images": [
-                    {
-                        "src": "arch-and-plants.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "dexter-analysis.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "edible-garden.jpg",
-                        "description": " "
-                    }
-                ]
-            },
-            {
-                "title": "Vignettes",
-                "dir": "Vignettes",
-                "images": [
-                    {
-                        "src": "full-sun-planting.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "partial-sun-planting.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "planting-vignettes-board.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "shade-planting.jpg",
-                        "description": " "
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Professional experience",
-        "projects": [
-            {
-                "title": "Construction Documents",
-                "dir": "Construction Documents",
-                "images": [
-                    {
-                        "src": "bridge-struction-condoc.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "cambria-monument.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "lighting-plan-no-text.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "monument-layout.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "pecan-street.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "planting-plan.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "planting-roundabout.jpg",
-                        "description": " "
-                    }
-                ]
-            },
-            {
-                "title": "Design Development",
-                "dir": "Design Development",
-                "images": [
-                    {
-                        "src": "Fontana Perspective_different people.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "avila-residence.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "bulb-out-retention-planter.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "greenwood-concept-a.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "greenwood-schematic.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "kennedy-phasing.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "lindero-creek.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "parlier-plan.jpg",
-                        "description": " "
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "name": "Residential Design",
-        "projects": [
-            {
-                "title": "Avila Residence",
-                "dir": "Avila Residence",
-                "images": [
-                    {
-                        "src": "avila-residence.jpg",
-                        "description": " "
-                    }
-                ]
-            },
-            {
-                "title": "High Grove House",
-                "dir": "High Grove House",
-                "images": [
-                    {
-                        "src": "high-grove-color-plants.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "high-grove-color.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "high-grove-normal.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "high-grove-perspective.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "high-grove-section.jpg",
-                        "description": " "
-                    }
-                ]
-            },
-            {
-                "title": "Montgomery Residence",
-                "dir": "Montgomery Residence",
-                "images": [
-                    {
-                        "src": "artistic-barn.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "artistic-house.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "artistic-section.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "barn-at-night.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "barn-panorama.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "building-model.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "entrance-perspective.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "farm-plan.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "house-before.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "house-perspective.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "labeled-building-model.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "patio-perspective.jpg",
-                        "description": " "
-                    }
-                ]
-            },
-            {
-                "title": "Pecan Residence",
-                "dir": "Pecan Residence",
-                "images": [
-                    {
-                        "src": "pecan-street.jpg",
-                        "description": " "
-                    }
-                ]
-            }
-        ]
-    },
-    {
         "name": "Senior Project",
         "projects": [
+            {
+                "title": "Perspectives",
+                "dir": "Perspectives",
+                "images": [
+                    {
+                        "src": "deck-perspective.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "douglas-perspective.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "information-node.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "night-render.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "on-deck-perspective.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "santa-barbara-the-mesa.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "shoreline-tide-walk.jpg",
+                        "description": " "
+                    }
+                ]
+            },
             {
                 "title": "Construction Documents",
                 "dir": "Construction Documents",
@@ -536,40 +118,6 @@
                     },
                     {
                         "src": "water-erosion.jpg",
-                        "description": " "
-                    }
-                ]
-            },
-            {
-                "title": "Perspectives",
-                "dir": "Perspectives",
-                "images": [
-                    {
-                        "src": "deck-perspective.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "douglas-perspective.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "information-node.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "night-render.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "on-deck-perspective.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "santa-barbara-the-mesa.jpg",
-                        "description": " "
-                    },
-                    {
-                        "src": "shoreline-tide-walk.jpg",
                         "description": " "
                     }
                 ]
@@ -697,6 +245,450 @@
                     },
                     {
                         "src": "woonerf-schematic.jpg",
+                        "description": " "
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Residential Design",
+        "projects": [
+            {
+                "title": "Avila Residence",
+                "dir": "Avila Residence",
+                "images": [
+                    {
+                        "src": "avila-residence.jpg",
+                        "description": " "
+                    }
+                ]
+            },
+            {
+                "title": "High Grove House",
+                "dir": "High Grove House",
+                "images": [
+                    {
+                        "src": "high-grove-color-plants.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "high-grove-color.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "high-grove-normal.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "high-grove-perspective.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "high-grove-section.jpg",
+                        "description": " "
+                    }
+                ]
+            },
+            {
+                "title": "Montgomery Residence",
+                "dir": "Montgomery Residence",
+                "images": [
+                    {
+                        "src": "artistic-barn.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "artistic-house.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "artistic-section.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "barn-at-night.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "barn-panorama.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "building-model.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "entrance-perspective.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "farm-plan.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "house-before.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "house-perspective.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "labeled-building-model.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "patio-perspective.jpg",
+                        "description": " "
+                    }
+                ]
+            },
+            {
+                "title": "Pecan Residence",
+                "dir": "Pecan Residence",
+                "images": [
+                    {
+                        "src": "pecan-street.jpg",
+                        "description": " "
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Planting Design",
+        "projects": [
+            {
+                "title": "Full Projects",
+                "dir": "Full Projects",
+                "images": [
+                    {
+                        "src": "arch-and-plants.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "dexter-analysis.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "edible-garden.jpg",
+                        "description": " "
+                    }
+                ]
+            },
+            {
+                "title": "Vignettes",
+                "dir": "Vignettes",
+                "images": [
+                    {
+                        "src": "full-sun-planting.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "partial-sun-planting.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "planting-vignettes-board.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "shade-planting.jpg",
+                        "description": " "
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Professional Experience",
+        "projects": [
+            {
+                "title": "Construction Documents",
+                "dir": "Construction Documents",
+                "images": [
+                    {
+                        "src": "bridge-struction-condoc.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "cambria-monument.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "lighting-plan-no-text.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "monument-layout.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "pecan-street.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "planting-plan.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "planting-roundabout.jpg",
+                        "description": " "
+                    }
+                ]
+            },
+            {
+                "title": "Design Development",
+                "dir": "Design Development",
+                "images": [
+                    {
+                        "src": "Fontana Perspective_different people.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "avila-residence.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "bulb-out-retention-planter.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "greenwood-concept-a.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "greenwood-schematic.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "kennedy-phasing.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "lindero-creek.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "parlier-plan.jpg",
+                        "description": " "
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Graphic Design",
+        "projects": [
+            {
+                "title": "Infographics",
+                "dir": "Infographics",
+                "images": [
+                    {
+                        "src": "agranescada.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "bubble-diagram.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "case-study.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "design-elements-matrix.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "donnely-park.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "section-info.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "timeline.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "water-erosion.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "word-art.jpg",
+                        "description": " "
+                    }
+                ]
+            },
+            {
+                "title": "Printed Pieces",
+                "dir": "Printed Pieces",
+                "images": [
+                    {
+                        "src": "be-obsessive.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "magazine-cover.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "manifesto.jpg",
+                        "description": " "
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Photography and Models",
+        "projects": [
+            {
+                "title": "Tutorials",
+                "dir": "Tutorials",
+                "images": [
+                    {
+                        "src": "tutorial-grass.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "tutorial-house.jpg",
+                        "description": " "
+                    }
+                ]
+            },
+            {
+                "title": "Built Models",
+                "dir": "Built Models",
+                "images": [
+                    {
+                        "src": "front-of-parasite.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "parasite-on-street.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "parasite.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "side-of-parasite.jpg",
+                        "description": " "
+                    }
+                ]
+            },
+            {
+                "title": "Computer Models",
+                "dir": "Computer Models",
+                "images": [
+                    {
+                        "src": "Chair Project.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "chair.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "cool-lighting.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "pen.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "red-and-blue-chair.jpg",
+                        "description": " "
+                    }
+                ]
+            },
+            {
+                "title": "Me",
+                "dir": "Me",
+                "images": [
+                    {
+                        "src": "photo-of-me.jpg",
+                        "description": " "
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Hand Sketches",
+        "projects": [
+            {
+                "title": "Models",
+                "dir": "Models",
+                "images": [
+                    {
+                        "src": "inked-train.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "parasite-sketch.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "section 2.jpg",
+                        "description": " "
+                    }
+                ]
+            },
+            {
+                "title": "Planting",
+                "dir": "Planting",
+                "images": [
+                    {
+                        "src": "high-grove-perspective.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "high-grove-section.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "partial-sketch.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "partial-vingette.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "shade-sketch.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "shade-vignette.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "sun-sketch.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "sun-vignette.jpg",
+                        "description": " "
+                    }
+                ]
+            },
+            {
+                "title": "School Assignments",
+                "dir": "School Assignments",
+                "images": [
+                    {
+                        "src": "close-up-library.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "mosaic-garden.jpg",
                         "description": " "
                     }
                 ]

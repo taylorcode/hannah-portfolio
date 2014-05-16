@@ -82,16 +82,19 @@ module.exports = function (grunt) {
         responsive_images: {
             default: {
                 options: {
-                    sizes: [{
-                        width: 320,
+                    sizes: [/*{
+                        width: 500,
+                        height: 500,
                         name: 'thumb',
                         quality: 70
                     }, {
-                        width: 640,
+                        width: 700,
+                        width: 700,
                         name: 'display',
                         quality: 70
-                    }, {
-                        width: 2000,
+                    }, */{
+                        width: 5000,
+                        height: 1800,
                         name: 'fullres',
                         quality: 70
                     }]
