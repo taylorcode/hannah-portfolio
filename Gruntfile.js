@@ -83,20 +83,20 @@ module.exports = function (grunt) {
             default: {
                 options: {
                     sizes: [{
-                        width: 500,
-                        height: 500,
+                        width: 450,
+                        height: 450,
                         name: 'thumb',
                         quality: 70
                     }, {
-                        width: 700,
-                        width: 700,
+                        width: 600,
+                        width: 600,
                         name: 'display',
-                        quality: 70
+                        quality: 80
                     }, {
-                        width: 7000,
+                        width: 6000,
                         height: 2500,
                         name: 'fullres',
-                        quality: 100
+                        quality: 90
                     }]
                 },
                 files: [{
