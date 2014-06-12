@@ -8,7 +8,7 @@ creating sustainable spaces for people to use and enjoy.</p>
 	<li ng-repeat="category in categories">
 		<a ng-href="/category/{{category.name | titleCaseToDash}}">
 			<figure>
-				<img ng-src="assets/media/images/categories/{{category.name | titleCaseToDash}}/{{category.projects[0].title | titleCaseToDash}}/display/{{category.projects[0].images[0].src | titleCaseToDash}}">
+				<img ng-src="assets/media/images/categories/{{category.name | titleCaseToDash}}/{{category.display.project | titleCaseToDash}}/display/{{category.display.img | titleCaseToDash}}">
 				<figcaption><span>{{category.name}}</span></figcaption>
 			</figure>
 		</a>

@@ -9,12 +9,17 @@ angular.module('hannah')
     slideUpDuration = 500
     categoriesDir = 'assets/media/images/categories'
     imgResolutions = ['thumb', 'display', 'fullres']
+    preloadIncrement = 10
+    preloadTimeout = 0
 
     preloadImages = (categories) ->
+        delay = 
         _.each categories, (category) -> _.each category.projects, (project) -> _.each project.images, (img) ->
             convertToDash = $filter 'titleCaseToDash'
             _.each imgResolutions, (res) ->
-                (new Image).src = categoriesDir + '/' + convertToDash(category.name) + '/' + convertToDash(project.title) + '/' + res + '/' + img.src
+                $timeout ->
+                    (new Image).src = categoriesDir + '/' + convertToDash(category.name) + '/' + convertToDash(project.title) + '/' + res + '/' + img.src
+                , preloadTimeout += preloadIncrement
 
     # get projects, attach to parent $scope
     $http.get 'assets/json/projects.json'

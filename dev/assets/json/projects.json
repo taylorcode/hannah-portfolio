@@ -1,6 +1,10 @@
 [
     {
         "name": "Senior Project",
+        "display": {
+            "project": "Perspectives",
+            "img": "deck-perspective.jpg"
+        },
         "projects": [
             {
                 "title": "Design Development",
@@ -36,11 +40,11 @@
                     },
                     {
                         "src": "entrance-blow-up.jpg",
-                        "description": "Blowup of seating area for the Shoreline Plaza."
+                        "description": "Blow-up of the seating area for the Shoreline Plaza."
                     },
                     {
                         "src": "deck-blowup.jpg",
-                        "description": "Blowup of the floating shoreline tide walk."
+                        "description": "Blow-up of the floating Shoreline Tide Walk."
                     }
                 ]
             },
@@ -128,6 +132,10 @@
     },
     {
         "name": "Project Research",
+        "display": {
+            "project": "Design Process",
+            "img": "schematic-board.jpg"
+        },
         "projects": [
             {
                 "title": "Design Process",
@@ -175,6 +183,10 @@
     },
     {
         "name": "Woonerf Design",
+        "display": {
+            "project": "Los Osos Valley Road",
+            "img": "lovr-schematic.jpg"
+        },
         "projects": [
             {
                 "title": "Los Osos Valley Road",
@@ -244,6 +256,10 @@
     },
     {
         "name": "Residential Design",
+        "display": {
+            "project": "Montgomery Residence",
+            "img": "barn-panorama.jpg"
+        },
         "projects": [
             {
                 "title": "Montgomery Residence",
@@ -345,6 +361,10 @@
     },
     {
         "name": "Planting Design",
+        "display": {
+            "project": "Full Projects",
+            "img": "edible-garden.jpg"
+        },
         "projects": [
             {
                 "title": "Full Projects",
@@ -390,6 +410,10 @@
     },
     {
         "name": "Professional Experience",
+        "display": {
+            "project": "Construction Documents",
+            "img": "cambria-monument.jpg"
+        },
         "copyright": {
             "img": "rrm-logo.jpg",
             "website": "http://www.rrmdesign.com"
@@ -477,6 +501,10 @@
     },
     {
         "name": "Hand Sketches",
+        "display": {
+            "project": "Rendered Drawings",
+            "img": "park-perspective.jpg"
+        },
         "projects": [
             {
                 "title": "Rendered Drawings",
@@ -528,6 +556,10 @@
     },
     {
         "name": "Graphic Design",
+        "display": {
+            "project": "Infographics",
+            "img": "peel-up-rocket-no-text.jpg"
+        },
         "projects": [
             {
                 "title": "Infographics",
@@ -593,6 +625,10 @@
     },
     {
         "name": "Photography and Models",
+        "display": {
+            "project": "Tutorials",
+            "img": "tutorial-grass.jpg"
+        },
         "projects": [
             {
                 "title": "Tutorials",
