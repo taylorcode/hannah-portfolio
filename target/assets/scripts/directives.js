@@ -29,9 +29,9 @@
         scrollUp: '&hzWindowScroll'
       },
       link: function(scope, elem, attrs) {
-        var cb, event, scrollWheelDelay, scrolled;
+        var cb, events, scrollWheelDelay, scrolled;
         scrolled = false;
-        event = 'mousewheel';
+        events = 'touchmove mousewheel';
         scrollWheelDelay = 1000;
         cb = function(e) {
           scope.$apply(function() {
@@ -42,10 +42,10 @@
           scrolled = true;
           e.preventDefault();
           return $timeout(function() {
-            return $(this).off(event, cb);
+            return $(this).off(events, cb);
           }, scrollWheelDelay);
         };
-        return $(window).on(event, cb);
+        return $(window).on(events, cb);
       }
     };
   }).directive('hzImageWidth', function() {

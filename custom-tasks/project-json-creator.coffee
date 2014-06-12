@@ -4,6 +4,9 @@ RSVP = require 'rsvp'
 im = require 'imagemagick'
 
 # convert the keyed object to JSON format we want
+titleCaseToDash = (value) ->
+  value.replace(/\s+/g, '-').toLowerCase() if value
+
 jsonKeyMap = (categories) ->
   _.map(categories, (obj, key) ->
     name: key
@@ -11,7 +14,7 @@ jsonKeyMap = (categories) ->
       title: key
       dir: key
       images: _.map(obj, (obj, key) ->
-        img = src: key
+        img = src: titleCaseToDash key
         img.description = obj if obj
         img
       )
@@ -58,7 +61,6 @@ module.exports = (grunt) ->
 
       category = subDirParts[0]
       project = subDirParts[1]
-
 
       if categories[category]
         c = categories[category]

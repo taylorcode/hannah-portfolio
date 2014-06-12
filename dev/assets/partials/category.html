@@ -2,8 +2,6 @@
 
 <div class="hz-gallery">
 
-	<h3>{{selectedImage.description}}</h3>
-
 	<figure class="hz-gallery-panzoom" panzoom hz-key="selectedImage">
 
 		<img ng-src="assets/media/images/categories/{{selectedCategory.name | titleCaseToDash}}/{{selectedProject.title | titleCaseToDash}}/fullres/{{selectedImage.src | titleCaseToDash}}">
@@ -11,9 +9,8 @@
 			<button class="button zoom-in">+</button>
 			<button class="button zoom-out">-</button>
 			<input type="range" class="zoom-range">
-			<button class="reset button" >Reset</button>
+			<button class="reset button">Reset</button>
 		</nav>
-
 	</figure>
 
 	<div class="hz-gallery-controls">
@@ -25,4 +22,16 @@
 		</div>
 		<section class="hz-gallery-thumbs" hz-gallery-thumbs="selectedCategory.projects" category-name="selectedCategory.name" selected-project="selectedProject" selected-image="selectedImage"></section>
 	</div>
+	<small ng-if="selectedCategory.copyright">
+		<a ng-href="{{selectedCategory.copyright.website}}">
+			<img ng-src="assets/media/copyright-images/{{selectedCategory.copyright.img}}">
+		</a>
+	</small>
+
+	<aside ng-if="selectedImage.description">
+		<p>{{selectedImage.description}}</p>
+	</aside>
+
 </div>
+
+

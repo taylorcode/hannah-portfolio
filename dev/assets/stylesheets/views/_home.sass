@@ -4,12 +4,17 @@
 		text-indent: -99999px
 		background: url(../media/ui/signature-accent.svg) no-repeat
 		background-size: auto 100%
-	width: 400px
+	width: 460px
 	@include respond-to(handhelds)
 		width: auto
 
 	p
 		margin-top: 20px
+		margin-bottom: 10px
+	small
+		font-size: 12px
+		margin-top: 20px
+		line-height: 140%
 
 @mixin hz-cover-slide-center-circle($size)
 	width: $size
@@ -48,14 +53,15 @@
 			@include hz-cover-slide-center-circle(500px)
 		@include respond-to(handhelds)
 			@include hz-cover-slide-center-circle(300px)
-		span
-			background: url(../media/ui/down-arrow.svg) no-repeat center
-			display: block
-			height: 100px
-			width: 100%
-			bottom: -30%
-			cursor: pointer
-			position: absolute
+			top: -15%
+	span
+		background: url(../media/ui/down-arrow.svg) no-repeat center
+		display: block
+		height: 100px
+		width: 100%
+		bottom: 0
+		cursor: pointer
+		position: absolute
 
 	.mesa-background
 		@include hardware-accelerate
@@ -69,7 +75,7 @@
 
 
 .hz-images-display
-	margin-top: 50px
+	margin-top: 25px
 	margin-bottom: 15px
 	margin-right: -15px
 	@include respond-to(handhelds)

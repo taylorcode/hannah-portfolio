@@ -1,1 +1,679 @@
-[{"name":"Residential Design","projects":[{"title":"Montgomery Residence","dir":"Montgomery Residence","images":[{"src":"building-model.jpg"},{"src":"labeled-building-model.jpg"},{"src":"house-perspective.jpg"},{"src":"patio-perspective.jpg"},{"src":"entrance-perspective.jpg"},{"src":"barn-at-night.jpg"},{"src":"house-before.JPG"},{"src":"artistic-section.jpg"},{"src":"artistic-house.jpg"},{"src":"barn-panorama.jpg"},{"src":"farm-plan.jpg"},{"src":"artistic-barn.jpg"}]},{"title":"High Grove House","dir":"High Grove House","images":[{"src":"high-grove-section.jpg"},{"src":"high-grove-color-plants.jpg"},{"src":"high-grove-color.jpg"},{"src":"high-grove-normal.jpg"},{"src":"high-grove-perspective.jpg"}]},{"title":"Pecan Residence","dir":"Pecan Residence","images":[{"src":"pecan-street.jpg"}]},{"title":"Avila Residence","dir":"Avila Residence","images":[{"src":"avila-residence.jpg"}]}]},{"name":"Professional experience","projects":[{"title":"Design Development","dir":"Design Development","images":[{"src":"Fontana Perspective_different people.jpg"},{"src":"greenwood-schematic.jpg"},{"src":"avila-residence.jpg"},{"src":"greenwood-concept-a.jpg"},{"src":"parlier-plan.jpg"},{"src":"lindero-creek.jpg"}]},{"title":"Construction Documents","dir":"Construction Documents","images":[{"src":"bridge-struction-condoc.jpg","description":"This is some meta data that HAAS blah blah blah blah"},{"src":"lighting-plan-no-text.jpg"},{"src":"planting-plan.jpg"},{"src":"pecan-street.jpg"},{"src":"planting-roundabout.jpg"},{"src":"cambria-monument.jpg"},{"src":"monument-layout.jpg"}]}]}]
+[
+    {
+        "name": "Senior Project",
+        "projects": [
+            {
+                "title": "Design Development",
+                "dir": "Design Development",
+                "images": [
+                    {
+                        "src": "concept-poster.jpg",
+                        "description": "With exceptional weather all year round and athletic, health conscious residents, my goal was to redesign the Mesa shoreline in Santa Barbara, CA. The bluffs on my site are in an area of active erosion caused by very high tides or storms. My design is a vision for the area that plans for environmental conservation, sustainable infrastructure and long-term stewardship."
+                    }
+                ]
+            },
+            {
+                "title": "Infographics",
+                "dir": "Infographics",
+                "images": [
+                    {
+                        "src": "vision-plan.jpg",
+                        "description": "The bluffs on my site are in an area of active erosion caused by very high tides or storms. The sea-cliff retreat rate is approximately .326 feet per year or about one foot every three years. The line where the gray starts represents where the bluff edge will most likely be in 50 years (or 16.6 feet inland). The white path represents the portion of the trail that is safe from this erosion, but the dashed line path is what is at risk of falling into the ocean. The path design takes this natural process into consideration so the new path formations are just as free flowing."
+                    },
+                    {
+                        "src": "water-erosion.jpg",
+                        "description": "The bluffs on my site are in an area of active erosion caused by very high tides or storms. The sea-cliff retreat rate is approximately .326 feet per year or about one foot every three years. The line where the gray starts represents where the bluff edge will most likely be in 50 years (or 16.6 feet inland). The white path represents the portion of the trail that is safe from this erosion, but the dashed line path is what is at risk of falling into the ocean. The path design takes this natural process into consideration so the new path formations are just as free flowing."
+                    }
+                ]
+            },
+            {
+                "title": "Plan",
+                "dir": "Plan",
+                "images": [
+                    {
+                        "src": "plan-final.jpg",
+                        "description": "The final plan of the entire plan that encompasses the four different zones. From right to left the zones are: Shoreline Plaza, Shoreline Tide Walk, La Mesa Park, Douglas Preserve"
+                    },
+                    {
+                        "src": "entrance-blow-up.jpg",
+                        "description": "Blowup of seating area for the Shoreline Plaza."
+                    },
+                    {
+                        "src": "deck-blowup.jpg",
+                        "description": "Blowup of the floating shoreline tide walk."
+                    }
+                ]
+            },
+            {
+                "title": "Perspectives",
+                "dir": "Perspectives",
+                "images": [
+                    {
+                        "src": "deck-perspective.jpg",
+                        "description": "Shoreline Tide Walk perspective."
+                    },
+                    {
+                        "src": "on-deck-perspective.jpg",
+                        "description": "View from on the floating deck."
+                    },
+                    {
+                        "src": "night-render.jpg",
+                        "description": "Night render of Shoreline Plaza."
+                    },
+                    {
+                        "src": "information-node.jpg",
+                        "description": "Learning kiosk. Information nodes along park to explain the environmental sensitivity of the area."
+                    },
+                    {
+                        "src": "douglas-perspective.jpg",
+                        "description": "The Douglas Preserve is a 70-acre park for community members to enjoy. I wanted to keep the area very natural, but because there is no lighting, it is currently unsafe for users in the evening. I designed several nodes in the park that are safe for visitors to come and enjoy nature."
+                    }
+                ]
+            },
+            {
+                "title": "Sections",
+                "dir": "Sections",
+                "images": [
+                    {
+                        "src": "ampitheater-section-use.jpg",
+                        "description": "Section through Mesa Meadows Amphitheater that is located in La Mesa Park. I designed the Mesa Meadows Amphitheater to double as a place for music concerts in the summer and a location for graduation ceremonies or school functions. The Mesa Learning Gardens are a series of demonstration gardens that can also be for educating the children or the public."
+                    },
+                    {
+                        "src": "section-deck.jpg",
+                        "description": "Section through the Shoreline Tide Walk."
+                    },
+                    {
+                        "src": "section-perspective-deck.jpg",
+                        "description": "Section perspective through the Shoreline Tide Walk."
+                    }
+                ]
+            },
+            {
+                "title": "Construction Documents",
+                "dir": "Construction Documents",
+                "images": [
+                    {
+                        "src": "bridge-struction-con-doc.jpg",
+                        "description": "Construction of the floating deck."
+                    },
+                    {
+                        "src": "lighting-plan-no-text.jpg",
+                        "description": "Lighting plan of Shoreline Plaza. Similar lighting design throughout entire project."
+                    },
+                    {
+                        "src": "planting-plan.jpg",
+                        "description": "Planting plan for Shoreline Plaza. Plants are meant to create a whimsical environment and are relatively drought tolerant and stay colorful all year round."
+                    },
+                    {
+                        "src": "plant-info.jpg",
+                        "description": "The types of plants used on the site."
+                    }
+                ]
+            },
+            {
+                "title": "Photographs",
+                "dir": "Photographs",
+                "images": [
+                    {
+                        "src": "final-presentation-layout.jpg",
+                        "description": "This is the final arrangement of my boards that I presented to an audience. I won “Best Senior Project” out of the entire graduating class."
+                    },
+                    {
+                        "src": "senior-project-picture.jpg",
+                        "description": "This is the final arrangement of my boards that I presented to an audience. I won “Best Senior Project” out of the entire graduating class."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Project Research",
+        "projects": [
+            {
+                "title": "Design Process",
+                "dir": "Design Process",
+                "images": [
+                    {
+                        "src": "santa-barbara-the-mesa.jpg",
+                        "description": "Site analysis was very essential for my site because I wanted to focus on the bluff erosion problem. I mapped out in AutoCAD where the grade changes are, the vegetation and vehicular paths. I met with local architects to learn more about the area so that the design could possibly be implemented."
+                    },
+                    {
+                        "src": "topo-of-site.jpg",
+                        "description": "Site analysis was very essential for my site because I wanted to focus on the bluff erosion problem. I mapped out in AutoCAD where the grade changes are, the vegetation and vehicular paths. I met with local architects to learn more about the area so that the design could possibly be implemented."
+                    },
+                    {
+                        "src": "topo-with-houses.jpg",
+                        "description": "Site analysis was very essential for my site because I wanted to focus on the bluff erosion problem. I mapped out in AutoCAD where the grade changes are, the vegetation and vehicular paths. I met with local architects to learn more about the area so that the design could possibly be implemented."
+                    },
+                    {
+                        "src": "trees.jpg",
+                        "description": "Site analysis was very essential for my site because I wanted to focus on the bluff erosion problem. I mapped out in AutoCAD where the grade changes are, the vegetation and vehicular paths. I met with local architects to learn more about the area so that the design could possibly be implemented."
+                    },
+                    {
+                        "src": "vehicular-paths.jpg",
+                        "description": "Site analysis was very essential for my site because I wanted to focus on the bluff erosion problem. I mapped out in AutoCAD where the grade changes are, the vegetation and vehicular paths. I met with local architects to learn more about the area so that the design could possibly be implemented."
+                    },
+                    {
+                        "src": "matrix-bubbles.jpg",
+                        "description": "I created matrices to determine where site features should be located on the site."
+                    },
+                    {
+                        "src": "design-elements-matrix.jpg",
+                        "description": "I created matrices to determine where site features should be located on the site."
+                    },
+                    {
+                        "src": "concept-diagram.jpg",
+                        "description": "Site analysis was very essential for my site because I wanted to focus on the bluff erosion problem. I mapped out in AutoCAD where the grade changes are, the vegetation and vehicular paths. I met with local architects to learn more about the area so that the design could possibly be implemented."
+                    },
+                    {
+                        "src": "schematic-board.jpg",
+                        "description": "Concept diagrams graphically showed how the entire site should be layout out. I color coded the running path, pedestrian path and bike path to see where they should intersect. The three concepts that I narrowed down to were: “Activities for All”, “Nature as Art” and “Pockets of Play”"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Woonerf Design",
+        "projects": [
+            {
+                "title": "Los Osos Valley Road",
+                "dir": "Los Osos Valley Road",
+                "images": [
+                    {
+                        "src": "birds-nest-board.jpg",
+                        "description": "A Woonerf is a living street where pedestrians have priority over vehicles. This is a very important concept because communities are looking for ways to improve the neighborhood health. The three projects that I completed following this idea all share the similar trait of making it uncomfortable for a vehicle to enter. They incorporate lots of vegetated areas with buffer zones to keep pedestrians safe."
+                    },
+                    {
+                        "src": "lovr-schematic.jpg",
+                        "description": "The design inspiration came from the Bird’s Nest design of the Beijing National Stadium. The stripes and colors are colored paving that is intended to discourage vehicles from entering the site."
+                    },
+                    {
+                        "src": "lovr-bottom-blowup.jpg",
+                        "description": "Bottom design blow-up."
+                    },
+                    {
+                        "src": "lovr-top-blowup.jpg",
+                        "description": "Top design blow-up."
+                    },
+                    {
+                        "src": "perspective-grasses.jpg",
+                        "description": "Perspective towards the residences."
+                    },
+                    {
+                        "src": "walk-with-planters.jpg",
+                        "description": "Perspective towards the busy highway."
+                    },
+                    {
+                        "src": "section-lovr-planters.jpg",
+                        "description": " "
+                    },
+                    {
+                        "src": "section-mounds.jpg",
+                        "description": "Section through the play mounds."
+                    }
+                ]
+            },
+            {
+                "title": "Margarita Avenue",
+                "dir": "Margarita Avenue",
+                "images": [
+                    {
+                        "src": "woonerf-schematic.jpg",
+                        "description": "Margarita Avenue has massive electric poles that were placed down the middle of the avenue. To create a space pedestrians would be drawn too, I connected a curvilinear path down the middle of the avenue with several vegetated areas and playgrounds. The site is proposed to have a new housing community constructed at the end of the road, so my design mimics the new development to ensure that the two areas easily intertwine."
+                    },
+                    {
+                        "src": "perspective-artwalk.jpg",
+                        "description": "Perspective of the artwalk."
+                    },
+                    {
+                        "src": "woonerf-playground.jpg",
+                        "description": "Linear childrens playground."
+                    },
+                    {
+                        "src": "section_swale.jpg",
+                        "description": "Section through the swale on site."
+                    },
+                    {
+                        "src": "condoc-swale.jpg",
+                        "description": "Construction of the swale on site."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Residential Design",
+        "projects": [
+            {
+                "title": "Montgomery Residence",
+                "dir": "Montgomery Residence",
+                "images": [
+                    {
+                        "src": "building-model.jpg",
+                        "description": "The Montgomery property was an adaptive re-use project where I transformed an abandoned dairy farm into a space that could hold weddings and concerts. In addition the family wanted a new design for their front yard that took advantage of the gorgeous views in Avila, CA. All designs incorporate drought tolerant planting."
+                    },
+                    {
+                        "src": "farm-plan.jpg",
+                        "description": "Rendered plan of the entire site."
+                    },
+                    {
+                        "src": "barn-panorama.jpg",
+                        "description": "Photograph taken of the existing conditions of the barn."
+                    },
+                    {
+                        "src": "artistic-barn.jpg",
+                        "description": "Rendered barn plan."
+                    },
+                    {
+                        "src": "barn-at-night.jpg",
+                        "description": "Perspective of the barn at night with an event."
+                    },
+                    {
+                        "src": "patio-perspective.jpg",
+                        "description": "Perspective of the outdoor patio and planting."
+                    },
+                    {
+                        "src": "artistic-house.jpg",
+                        "description": "Rendered plan of the Montgomery residence."
+                    },
+                    {
+                        "src": "house-before.jpg",
+                        "description": "Photograph of the house before the new design."
+                    },
+                    {
+                        "src": "house-perspective.jpg",
+                        "description": "New plan with the updated gathering space."
+                    },
+                    {
+                        "src": "artistic-section.jpg",
+                        "description": "Section through the Montgomery residence to capture the amazing view from the property."
+                    },
+                    {
+                        "src": "entrance-perspective.jpg",
+                        "description": "Perspective of the new entrance to the property with a historic gate."
+                    }
+                ]
+            },
+            {
+                "title": "High Grove House",
+                "dir": "High Grove House",
+                "images": [
+                    {
+                        "src": "high-grove-normal.jpg",
+                        "description": "The High Grove House is located in Goleta, CA. My aim was to create a lush, cottage style backyard that took advantage of the wonderful Mediterranean climate. The client wanted areas to entertain people and a vegetable garden. I created a schematic design as well as a planting plan that could be built by a contractor."
+                    },
+                    {
+                        "src": "high-grove-color-plants.jpg",
+                        "description": "Schematic planting plan with plant colors presented."
+                    },
+                    {
+                        "src": "high-grove-color.jpg",
+                        "description": "Schematic planting plan with plant colors presented."
+                    },
+                    {
+                        "src": "high-grove-perspective.jpg",
+                        "description": "Perspective of the backyard."
+                    },
+                    {
+                        "src": "high-grove-section.jpg",
+                        "description": "Section through fire pit gathering area."
+                    }
+                ]
+            },
+            {
+                "title": "Avila Residence",
+                "dir": "Avila Residence",
+                "images": [
+                    {
+                        "src": "avila-residence.jpg",
+                        "description": "This was a small residential courtyard that needed to be updated to include a fountain and dinning area. I sketched a brief plan so they could start developing the space immediately."
+                    }
+                ]
+            },
+            {
+                "title": "Pecan Residence",
+                "dir": "Pecan Residence",
+                "images": [
+                    {
+                        "src": "pecan-street.jpg",
+                        "description": "A small driveway needed to be updated so that it was more sustainable and handled water runnoff."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Planting Design",
+        "projects": [
+            {
+                "title": "Full Projects",
+                "dir": "Full Projects",
+                "images": [
+                    {
+                        "src": "arch-and-plants.jpg",
+                        "description": "Planting design should mimic the architecture on site and add to the beauty. For this I created a modern house and planting palate that would work on the site."
+                    },
+                    {
+                        "src": "dexter-analysis.jpg",
+                        "description": "The Dexter courtyard is located on Cal Poly’s campus and is relatively dull at the moment. I created a new, lush planting design for the area that was submitted to the school for consideration."
+                    },
+                    {
+                        "src": "edible-garden.jpg",
+                        "description": "This edible garden design is located on Cal Poly’s campus next to the market. It was intended to teach students how their food grows and how beautiful edible plants can be."
+                    }
+                ]
+            },
+            {
+                "title": "Palette Vignettes",
+                "dir": "Palette Vignettes",
+                "images": [
+                    {
+                        "src": "planting-vignettes-board.jpg",
+                        "description": "Planting vignettes are a great way to show planting arrangements for all sun conditions. I chose plants that match well with different textures and color for all different location."
+                    },
+                    {
+                        "src": "full-sun-planting.jpg",
+                        "description": "Full sun planting palette."
+                    },
+                    {
+                        "src": "partial-sun-planting.jpg",
+                        "description": "Partial sun planting palette."
+                    },
+                    {
+                        "src": "shade-planting.jpg",
+                        "description": "Full shade planting palette."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Professional Experience",
+        "copyright": {
+            "img": "rrm-logo.jpg",
+            "website": "http://www.rrmdesign.com"
+        },
+        "projects": [
+            {
+                "title": "Construction Documents",
+                "dir": "Construction Documents",
+                "images": [
+                    {
+                        "src": "cambria-monument.jpg",
+                        "description": "Construction documents are very important when it comes to designing a space. Without clear, accurate drawings a project can not be built according to your design. AutoCAD is a second language to me and it is exciting to figure out how something can get built."
+                    },
+                    {
+                        "src": "monument-layout.jpg",
+                        "description": "I was assigned to create the construction documents for highway monuments. I worked with structural engineers to determine how to build them."
+                    },
+                    {
+                        "src": "pecan-street.jpg",
+                        "description": "Layout for a new residential driveway."
+                    },
+                    {
+                        "src": "planting-roundabout.jpg",
+                        "description": "Planting plan for a roundabout."
+                    }
+                ]
+            },
+            {
+                "title": "Design Development",
+                "dir": "Design Development",
+                "images": [
+                    {
+                        "src": "creek-connection-diagram.jpg",
+                        "description": "Stormwater management and creek restoration is a passion of mine so it was excited to understand how water moves on a site and design accordingly."
+                    },
+                    {
+                        "src": "plants-and-materials-page-1.jpg",
+                        "description": "Image boards are very helpful to show the client what you intend for the site."
+                    },
+                    {
+                        "src": "draft-master-plan-on-aerial.jpg",
+                        "description": "Rendered conceptual plan for several acres with recreation nodes."
+                    },
+                    {
+                        "src": "kennedypark-masterplan.jpg",
+                        "description": "Master plan for a large old fashioned park."
+                    },
+                    {
+                        "src": "rv-park-colored.jpg",
+                        "description": "RV park design along the ocean."
+                    },
+                    {
+                        "src": "section-changes-existing.jpg",
+                        "description": "Los Angeles street sections to highlight design options."
+                    },
+                    {
+                        "src": "section-changes-option-1.jpg",
+                        "description": "Los Angeles street sections to highlight design options."
+                    },
+                    {
+                        "src": "section-changes-option-3.jpg",
+                        "description": "Los Angeles street sections to highlight design options."
+                    }
+                ]
+            },
+            {
+                "title": "Graphic Design",
+                "dir": "Graphic Design",
+                "images": [
+                    {
+                        "src": "master-plan-process.jpg",
+                        "description": "Graphic banner showing the design process to the community and the phase we were at."
+                    },
+                    {
+                        "src": "upcoming-workshops.jpg",
+                        "description": "Flyers to attract the community to workshops."
+                    },
+                    {
+                        "src": "survey-page-2.jpg",
+                        "description": "Bilingual surveys are essential to get information from everyone in the area."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Hand Sketches",
+        "projects": [
+            {
+                "title": "Rendered Drawings",
+                "dir": "Rendered Drawings",
+                "images": [
+                    {
+                        "src": "park-perspective.jpg",
+                        "description": "Clients often prefer quick hand sketches to understand how a design works at ground level. I rendered the drawing using Photoshop so that it felt like a watercolor painting."
+                    },
+                    {
+                        "src": "inked-train.jpg",
+                        "description": "With the design profession shifting more to the digital style it is easy to lose the ability to sketch. Sketching is important to develop designs and quickly show a colleague or client what your vision is."
+                    },
+                    {
+                        "src": "parasite-sketch.jpg",
+                        "description": "Sketch of a parasite project completed for school."
+                    }
+                ]
+            },
+            {
+                "title": "Residential Graphics",
+                "dir": "Residential Graphics",
+                "images": [
+                    {
+                        "src": "high-grove-perspective.jpg",
+                        "description": "High Grove House perspective."
+                    },
+                    {
+                        "src": "high-grove-section.jpg",
+                        "description": "High Grove House hand drawn section."
+                    }
+                ]
+            },
+            {
+                "title": "Past Projects",
+                "dir": "Past Projects",
+                "images": [
+                    {
+                        "src": "close-up-library.jpg",
+                        "description": "My older projects were all completed with pens and ink. This is part of a library courtyard that I redesigned for Arroyo Grande."
+                    },
+                    {
+                        "src": "mosaic-garden.jpg",
+                        "description": "The Mosaic Garden is a whimsical backyard design for an eclectic household."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Graphic Design",
+        "projects": [
+            {
+                "title": "Infographics",
+                "dir": "Infographics",
+                "images": [
+                    {
+                        "src": "peel-up-rocket-no-text.jpg",
+                        "description": "This is an infographic that I made to describe my bench design that mimics the High Line Park in New York. I wanted to focus on materiality and use."
+                    },
+                    {
+                        "src": "agranescada.jpg",
+                        "description": "The design intent is to create informative, graphically pleasing diagrams. Bilingual infographics are important so that your audience fully understands a design."
+                    },
+                    {
+                        "src": "donnely-park.jpg",
+                        "description": "The design intent is to create informative, graphically pleasing diagrams."
+                    },
+                    {
+                        "src": "section-info.jpg",
+                        "description": "The design intent is to create informative, graphically pleasing diagrams."
+                    },
+                    {
+                        "src": "water-erosion.jpg",
+                        "description": "The design intent is to create informative, graphically pleasing diagrams."
+                    },
+                    {
+                        "src": "bubble-diagram.jpg",
+                        "description": "Bubble diagrams are simple, yet extremely effective to show how to went through your design process."
+                    },
+                    {
+                        "src": "design-elements-matrix.jpg",
+                        "description": "This is a design matrix that shows the elements that I used for my senior thesis project."
+                    },
+                    {
+                        "src": "case-study.jpg",
+                        "description": "Case studies are helpful to learn how other similar sites have tackled similar issues."
+                    },
+                    {
+                        "src": "timeline.jpg",
+                        "description": "I create timelines for everything I do to make sure I meet deadlines. This was one I used for my senior thesis project."
+                    }
+                ]
+            },
+            {
+                "title": "Printed Pieces",
+                "dir": "Printed Pieces",
+                "images": [
+                    {
+                        "src": "magazine-cover.jpg",
+                        "description": "The magazine I designed for my senior thesis project. It includes a manifesto about what landscape architecture means to me"
+                    },
+                    {
+                        "src": "be-obsessive.jpg",
+                        "description": "Be Obsessive. You have to love what you do in order to succeed."
+                    },
+                    {
+                        "src": "manifesto.jpg",
+                        "description": "My landscape architecture manifesto."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Photography and Models",
+        "projects": [
+            {
+                "title": "Tutorials",
+                "dir": "Tutorials",
+                "images": [
+                    {
+                        "src": "tutorial-grass.jpg",
+                        "description": "One of the best ways to learn is by watching tutorials online. This is how I learned a majority of what I know about computer-aided design."
+                    },
+                    {
+                        "src": "tutorial-house.jpg",
+                        "description": "One of the best ways to learn is by watching tutorials online. This is how I learned a majority of what I know about computer-aided design."
+                    }
+                ]
+            },
+            {
+                "title": "Computer Models",
+                "dir": "Computer Models",
+                "images": [
+                    {
+                        "src": "chair-project.jpg",
+                        "description": "Creating models of ordinary objects in Rhino was a great way to introduce me to the program and its abilities with lighting."
+                    },
+                    {
+                        "src": "chair.jpg",
+                        "description": "Creating models of ordinary objects in Rhino was a great way to introduce me to the program and its abilities with lighting."
+                    },
+                    {
+                        "src": "red-and-blue-chair.jpg",
+                        "description": "Creating models of ordinary objects in Rhino was a great way to introduce me to the program and its abilities with lighting."
+                    },
+                    {
+                        "src": "pen.jpg",
+                        "description": "Creating models of ordinary objects in Rhino was a great way to introduce me to the program and its abilities with lighting."
+                    },
+                    {
+                        "src": "cool-lighting.jpg",
+                        "description": "The neon lights can be achieved through rendering in 3DS Max."
+                    }
+                ]
+            },
+            {
+                "title": "Photography",
+                "dir": "Photography",
+                "images": [
+                    {
+                        "src": "first.jpg",
+                        "description": "I have a passion for photography and a wonderful Nikon camera. I enjoy taking photographs for friends and family for graduation and special occasions."
+                    },
+                    {
+                        "src": "sunset.jpg",
+                        "description": "I have a passion for photography and a wonderful Nikon camera. I enjoy taking photographs for friends and family for graduation and special occasions."
+                    }
+                ]
+            },
+            {
+                "title": "Physical Models",
+                "dir": "Physical Models",
+                "images": [
+                    {
+                        "src": "built-chair.jpg",
+                        "description": "This assignment was to create a chair made from only recycled cardboard that can withstand the weight of anyone who sits on it. I modeled the chair in Rhino and then used a laser cutter to cut out the pieces to build the chair."
+                    },
+                    {
+                        "src": "front-of-parasite.jpg",
+                        "description": "The parasite project was a unique assignment that increased my awareness of site interaction. I made a dinosaur-like parasite that matched the curb paint in a location in downtown San Luis Obispo. It was fun to watch pedestrians interact with it."
+                    },
+                    {
+                        "src": "parasite-on-street.jpg",
+                        "description": "The parasite project was a unique assignment that increased my awareness of site interaction. I made a dinosaur-like parasite that matched the curb paint in a location in downtown San Luis Obispo. It was fun to watch pedestrians interact with it."
+                    },
+                    {
+                        "src": "parasite.jpg",
+                        "description": "The parasite project was a unique assignment that increased my awareness of site interaction. I made a dinosaur-like parasite that matched the curb paint in a location in downtown San Luis Obispo. It was fun to watch pedestrians interact with it."
+                    },
+                    {
+                        "src": "side-of-parasite.jpg",
+                        "description": "The parasite project was a unique assignment that increased my awareness of site interaction. I made a dinosaur-like parasite that matched the curb paint in a location in downtown San Luis Obispo. It was fun to watch pedestrians interact with it."
+                    }
+                ]
+            }
+        ]
+    }
+]

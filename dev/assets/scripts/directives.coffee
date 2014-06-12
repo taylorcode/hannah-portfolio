@@ -44,7 +44,7 @@ angular.module('hannah')
 		scrollUp: '&hzWindowScroll'
 	link: (scope, elem, attrs) ->
 		scrolled = false
-		event = 'mousewheel'
+		events = 'touchmove mousewheel'
 		scrollWheelDelay = 1000
 		cb = (e) ->
 			scope.$apply ->
@@ -52,10 +52,10 @@ angular.module('hannah')
 			scrolled = true
 			e.preventDefault()
 			$timeout ->
-				$(@).off event, cb
+				$(@).off events, cb
 			, scrollWheelDelay
 
-		$(window).on event, cb
+		$(window).on events, cb
 
 
 .directive 'hzImageWidth', () ->

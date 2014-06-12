@@ -1,7 +1,25 @@
 .hz-gallery
     figure
         height: 500px
+        line-height: 500px
         text-align: center
+        @include respond-to(handhelds)
+            @include height-line-height(250px)
+        @include respond-to(normal-screens)
+            @include height-line-height(370px)
+        @include respond-to(medium-screens)
+            @include height-line-height(450px)
+        @include respond-to(wide-screens)
+            @include height-line-height(500px)
+    small
+        img
+            width: 150px
+            max-width: 50%
+    aside
+        width: 50%
+        margin-top: 20px
+        @include respond-to(handhelds)
+            width: 100%
 
 .hz-gallery-panzoom
     nav
@@ -9,8 +27,11 @@
         top: 0
         right: 0
         margin: 15px 14px 0px 0px
+        height: 32px
     img
-        height: 100%
+        max-height: 100%
+        max-width: 100%
+        vertical-align: middle
     input[type='range'], button
         vertical-align: top
         border: none

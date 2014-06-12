@@ -82,7 +82,7 @@ module.exports = function (grunt) {
         responsive_images: {
             default: {
                 options: {
-                    sizes: [/*{
+                    sizes: [{
                         width: 500,
                         height: 500,
                         name: 'thumb',
@@ -92,11 +92,11 @@ module.exports = function (grunt) {
                         width: 700,
                         name: 'display',
                         quality: 70
-                    }, */{
-                        width: 5000,
-                        height: 1800,
+                    }, {
+                        width: 7000,
+                        height: 2500,
                         name: 'fullres',
-                        quality: 70
+                        quality: 100
                     }]
                 },
                 files: [{
@@ -130,7 +130,7 @@ module.exports = function (grunt) {
                 tasks: ['htmlbuild'],
             },
             livereload: {
-                files: ['target/**/*'],
+                files: ['target/**/*', '!target/assets/media/**'],
                 options: {
                     livereload: true
                 }
@@ -148,4 +148,11 @@ module.exports = function (grunt) {
 
     // setup our workflow
     grunt.registerTask('default', ['clean', 'coffee', 'compass', 'htmlbuild', 'sync', 'copy', 'watch']);
+
+
+    // full build is
+    // grunt
+    // grunt responsive_images
+    // grunt projectJSON
+
 }

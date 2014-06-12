@@ -1,14 +1,30 @@
 (function() {
   angular.module('hannah').controller('Hannah', function($route, $routeParams, $location, $scope, $http, $filter, $rootScope, $timeout) {
-    var slideUpDuration;
+    var categoriesDir, imgResolutions, preloadImages, slideUpDuration;
     log('Hannah Controller Initialized');
     this.$route = $route;
     this.$location = $location;
     this.$routeParams = $routeParams;
     $rootScope.coverSlideUp = false;
     slideUpDuration = 500;
+    categoriesDir = 'assets/media/images/categories';
+    imgResolutions = ['thumb', 'display', 'fullres'];
+    preloadImages = function(categories) {
+      return _.each(categories, function(category) {
+        return _.each(category.projects, function(project) {
+          return _.each(project.images, function(img) {
+            var convertToDash;
+            convertToDash = $filter('titleCaseToDash');
+            return _.each(imgResolutions, function(res) {
+              return (new Image).src = categoriesDir + '/' + convertToDash(category.name) + '/' + convertToDash(project.title) + '/' + res + '/' + img.src;
+            });
+          });
+        });
+      });
+    };
     $http.get('assets/json/projects.json').success(function(categories) {
-      return $scope.categories = categories;
+      $scope.categories = categories;
+      return preloadImages(categories);
     });
     $rootScope.moveCoverSlide = function() {
       $rootScope.coverSlideUp = true;

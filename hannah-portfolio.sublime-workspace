@@ -79,7 +79,7 @@
 			"file": "Gruntfile.js",
 			"settings":
 			{
-				"buffer_size": 4451,
+				"buffer_size": 4566,
 				"line_ending": "Unix"
 			}
 		},
@@ -176,6 +176,14 @@
 			"settings":
 			{
 				"buffer_size": 1693,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dev/assets/scripts/src/controllers/main.coffee",
+			"settings":
+			{
+				"buffer_size": 1282,
 				"line_ending": "Unix"
 			}
 		}
@@ -502,7 +510,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 15,
 			"sheets":
 			[
 				{
@@ -565,15 +573,15 @@
 					"file": "Gruntfile.js",
 					"settings":
 					{
-						"buffer_size": 4451,
+						"buffer_size": 4566,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								534,
-								534
+								0,
+								0
 							]
 						],
 						"settings":
@@ -628,8 +636,8 @@
 						"selection":
 						[
 							[
-								1944,
-								1944
+								2153,
+								2153
 							]
 						],
 						"settings":
@@ -639,7 +647,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 605.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -745,7 +753,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1901.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -906,6 +914,34 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 655.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "dev/assets/scripts/src/controllers/main.coffee",
+					"settings":
+					{
+						"buffer_size": 1282,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								623,
+								623
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CoffeeScript/Syntaxes/CoffeeScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
