@@ -14,7 +14,6 @@ angular.module('hannah')
     $http.get 'assets/json/projects.json'
     .success (categories) ->
         $scope.categories = categories
-        preloadImages categories
         
     $rootScope.moveCoverSlide = ->
         $rootScope.coverSlideUp = true

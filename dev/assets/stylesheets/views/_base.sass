@@ -112,3 +112,33 @@ h2
 .hz-stretch-image
 	img
 		width: 100%
+
+.hz-loader
+	background-image: url(../media/ui/loader.svg)
+	width: 40px
+	height: 40px
+	display: inline-block
+	position: absolute
+	left: 50%
+	top: 50%
+	margin-left: -20px
+	margin-top: -20px
+	text-indent: -9999px
+
+.hz-load-overlay
+	left: 0
+	top: 0
+	background: rgba(255, 255, 255, .5)
+	position: fixed
+	top: 0
+	z-index: 999
+	height: 0px
+	width: 100%
+	visibility: hidden
+	opacity: 0
+	&.visible
+		@include transition-property(opacity)
+		@include transition-duration(.5s)
+		height: 100%
+		visibility: visible
+		opacity: 1

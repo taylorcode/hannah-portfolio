@@ -11,6 +11,10 @@
 
 <body ontouchstart ng-controller="Hannah as hannah">
 
+    <div class="hz-load-overlay" ng-class="{visible: httpDelayed}">
+        <span class="hz-loader">LOADING...</span>
+    </div>
+
     <div ng-if="!slidUp" ng-class="{up: coverSlideUp, shown: !slidUp}" class="hz-cover-slide" hz-window-scroll="moveCoverSlide()">
         <div class="mesa-background"></div>
         <div class="hannah-circle">

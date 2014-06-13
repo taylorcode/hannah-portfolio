@@ -10,8 +10,7 @@
     categoriesDir = 'assets/media/images/categories';
     imgResolutions = ['thumb', 'display', 'fullres'];
     $http.get('assets/json/projects.json').success(function(categories) {
-      $scope.categories = categories;
-      return preloadImages(categories);
+      return $scope.categories = categories;
     });
     $rootScope.moveCoverSlide = function() {
       $rootScope.coverSlideUp = true;
