@@ -1,6 +1,6 @@
 (function() {
   angular.module('hannah').controller('Hannah', function($route, $routeParams, $location, $scope, $http, $filter, $rootScope, $timeout) {
-    var categoriesDir, imgResolutions, preloadImages, slideUpDuration;
+    var categoriesDir, imgResolutions, slideUpDuration;
     log('Hannah Controller Initialized');
     this.$route = $route;
     this.$location = $location;
@@ -9,20 +9,6 @@
     slideUpDuration = 500;
     categoriesDir = 'assets/media/images/categories';
     imgResolutions = ['thumb', 'display', 'fullres'];
-    preloadImages = function(categories) {
-      var delay;
-      return delay = _.each(categories, function(category) {
-        return _.each(category.projects, function(project) {
-          return _.each(project.images, function(img) {
-            var convertToDash;
-            convertToDash = $filter('titleCaseToDash');
-            return _.each(imgResolutions, function(res) {
-              return (new Image).src = categoriesDir + '/' + convertToDash(category.name) + '/' + convertToDash(project.title) + '/' + res + '/' + img.src;
-            });
-          });
-        });
-      });
-    };
     $http.get('assets/json/projects.json').success(function(categories) {
       $scope.categories = categories;
       return preloadImages(categories);

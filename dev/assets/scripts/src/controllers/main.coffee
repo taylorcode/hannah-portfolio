@@ -10,13 +10,6 @@ angular.module('hannah')
     categoriesDir = 'assets/media/images/categories'
     imgResolutions = ['thumb', 'display', 'fullres']
 
-    preloadImages = (categories) ->
-        delay = 
-        _.each categories, (category) -> _.each category.projects, (project) -> _.each project.images, (img) ->
-            convertToDash = $filter 'titleCaseToDash'
-            _.each imgResolutions, (res) ->
-                (new Image).src = categoriesDir + '/' + convertToDash(category.name) + '/' + convertToDash(project.title) + '/' + res + '/' + img.src
-
     # get projects, attach to parent $scope
     $http.get 'assets/json/projects.json'
     .success (categories) ->
