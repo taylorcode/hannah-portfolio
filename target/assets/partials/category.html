@@ -4,7 +4,7 @@
 
 	<figure class="hz-gallery-panzoom" panzoom hz-key="selectedImage">
 
-		<img ng-src="assets/media/images/categories/{{selectedCategory.name | titleCaseToDash}}/{{selectedProject.title | titleCaseToDash}}/fullres/{{selectedImage.src | titleCaseToDash}}">
+		<img ng-src="http://s3.amazonaws.com/hannzimm-assets/media/images/categories/{{selectedCategory.name | titleCaseToDash}}/{{selectedProject.title | titleCaseToDash}}/fullres/{{selectedImage.src | titleCaseToDash}}">
 		<nav>
 			<button class="button zoom-in">+</button>
 			<button class="button zoom-out">-</button>
@@ -24,7 +24,7 @@
 	</div>
 	<small ng-if="selectedCategory.copyright">
 		<a ng-href="{{selectedCategory.copyright.website}}">
-			<img ng-src="assets/media/copyright-images/{{selectedCategory.copyright.img}}">
+			<img ng-src="http://s3.amazonaws.com/hannzimm-assets/media/copyright-images/{{selectedCategory.copyright.img}}">
 		</a>
 	</small>
 
